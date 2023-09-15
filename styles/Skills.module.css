@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.heading {
+  font-size: 5rem;
+}
+
+.desc {
+  color: gray;
+  font-weight: 500;
+  font-size: larger;
+  margin-top: 5px;
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 2rem;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.left {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  margin-bottom: 10rem;
+  margin-top: 5rem;
+}
+
+.right {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  gap: 1rem;
+}
+
+.card1 {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+}
+
+.tabs {
+  margin-top: 30px;
+}

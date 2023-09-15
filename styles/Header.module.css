@@ -1,0 +1,51 @@
+.container {
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 25px;
+  border-bottom: 1px solid rgb(213, 213, 213);
+}
+
+.link {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  border: none;
+}
+
+.logo {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.link span {
+  padding: 5px 15px;
+  transition: ease 0.3s;
+  color: black;
+  font-size: 1.7rem;
+}
+
+.link a:link {
+  color: black;
+}
+
+.link a:visited {
+  color: black;
+}
+
+.link:link {
+  color: black;
+}
+
+.link:visited {
+  color: black;
+}
+
+.link span:hover {
+  color: white;
+  background-color: black;
+  padding: 5px 15px;
+  cursor: pointer;
+}

@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-top: 30px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-size: 5rem;
+}
+
+.desc {
+  color: gray;
+  font-weight: 500;
+  font-size: larger;
+  margin-top: 5px;
+}
+
+.tabs {
+  margin-top: 30px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.projects {
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .card {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
