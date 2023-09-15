@@ -10,19 +10,16 @@ export default function Header() {
           <Link href="/">
             <span>HOME</span>
           </Link>
-          <Link href="#project">
+          <Link href="#about">
             <span>ABOUT</span>
           </Link>
-          <Link href="#about">
+          <Link href="#skills">
             <span>SKILLS</span>
           </Link>
-          <Link href="#about">
-            <span>EXPERIENCE</span>
-          </Link>
-          <Link href="#about">
+          <Link href="#projects">
             <span>PROJECTS</span>
           </Link>
-          <Link href="#about">
+          <Link href="#contact">
             <span>CONTACT</span>
           </Link>
         </div>

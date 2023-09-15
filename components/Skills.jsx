@@ -9,7 +9,7 @@ import Reveal from "./Reveal";
 export default function Skills() {
   return (
     <>
-      <div className={css.container}>
+      <div className={css.container} id="skills">
         <div className={css.skills}>
           <h1 className={css.heading}>SKILLS</h1>
           <p className={css.desc}>WHAT I DO</p>
