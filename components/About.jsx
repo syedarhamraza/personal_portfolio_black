@@ -2,6 +2,7 @@ import css from "../styles/About.module.css";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import Link from "next/link";
+import logo from "@/assets/logo.jpg";
 
 import { Avatar } from "@mantine/core";
 
@@ -14,7 +15,7 @@ export default function About() {
         <div className={css.about}>
           <div className={css.left}>
             <div className={css.right}>
-              <Avatar src="avatar.png" alt="it's me" size={350} radius={200} />
+              <Avatar src="logo.jpg" alt="it's me" size={350} radius={200} />
             </div>
             <h1 className={css.heading}>SYED ARHAM RAZA</h1>
             <p className={css.desc}>
