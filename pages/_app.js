@@ -3,6 +3,8 @@ import "@/styles/globals.css";
 
 import { MantineProvider } from "@mantine/core";
 import Head from "next/head";
+import Link from "next/link";
+import CookieConsent from "react-cookie-consent";
 
 export default function App({ Component, pageProps }) {
   return (
@@ -33,6 +35,29 @@ export default function App({ Component, pageProps }) {
       >
         <Component {...pageProps} />
         <ScrollToTopButton />
+        <CookieConsent
+          style={{
+            background: "#ffffff",
+            color: "black",
+            fontWeight: "700",
+            border: "2px solid black",
+          }}
+          buttonText="Allow Cookies"
+          expires={150}
+          buttonStyle={{
+            background: "white",
+            border: "2px solid black",
+            color: "black",
+            padding: "8px",
+          }}
+          buttonClasses=""
+        >
+          This Site Uses Cookies. See our{" "}
+          <Link href="/privacypolicy">
+            <span className="link">Privacy Policy</span>
+          </Link>{" "}
+          for more Information
+        </CookieConsent>
       </MantineProvider>
     </>
   );

@@ -15,7 +15,34 @@ import FmdGoodIcon from "@mui/icons-material/FmdGood";
 import WbSunnyIcon from "@mui/icons-material/WbSunny";
 import Link from "next/link";
 
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import toast, { Toaster } from "react-hot-toast";
+
 export default function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_rifldnl",
+        "template_fcp8kon",
+        form.current,
+        "9xoFWl2VBdOClgDBq"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          form.current.reset();
+          toast.success("Email sent!");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <>
       <div className={css.container} id="contact">
@@ -66,7 +93,7 @@ export default function Contact() {
             </div>
             <div className={css.right}>
               <div className={css.form}>
-                <form>
+                <form ref={form} onSubmit={sendEmail}>
                   <Title
                     order={2}
                     size="h1"
@@ -85,9 +112,11 @@ export default function Contact() {
                     breakpoints={[{ maxWidth: "sm", cols: 1 }]}
                   >
                     <TextInput
+                      required
                       label="Name"
                       placeholder="Your name"
-                      name="name"
+                      type="text"
+                      name="from_name"
                       variant="filled"
                       styles={(theme) => ({
                         input: {
@@ -99,9 +128,11 @@ export default function Contact() {
                       })}
                     />
                     <TextInput
+                      required
                       label="Email"
                       placeholder="Your email"
-                      name="email"
+                      type="email"
+                      name="email_id"
                       variant="filled"
                       styles={(theme) => ({
                         input: {
@@ -115,10 +146,12 @@ export default function Contact() {
                   </SimpleGrid>
 
                   <TextInput
+                    required
                     label="Subject"
                     placeholder="Subject"
                     mt="md"
                     name="subject"
+                    type="text"
                     variant="filled"
                     styles={(theme) => ({
                       input: {
@@ -130,6 +163,7 @@ export default function Contact() {
                     })}
                   />
                   <Textarea
+                    required
                     mt="md"
                     label="Message"
                     placeholder="Your message"
@@ -149,39 +183,11 @@ export default function Contact() {
                   />
 
                   <Group position="center" mt="xl">
-                    <Link href="#">
-                      <Button
-                        variant="outline"
-                        color="dark"
-                        radius="xs"
-                        size="md"
-                        styles={(theme) => ({
-                          root: {
-                            backgroundColor: "#FFFFFF", // White background by default
-                            color: "#000000", // Black text by default
-                            border: "2px solid #000000", // Black border by default
-                            height: rem(42),
-                            marginTop: "1rem",
-                            paddingLeft: rem(20),
-                            paddingRight: rem(20),
-                            transition:
-                              "background-color 0.3s, color 0.3s, border 0.3s", // Add a transition for a smooth hover effect
-                            "&:not([data-disabled])": {
-                              "&:hover": {
-                                backgroundColor: "#FFFFFF", // Black background on hover
-                                color: "#000000", // White text on hover
-                              },
-                            },
-                          },
-                          leftIcon: {
-                            marginRight: theme.spacing.md,
-                          },
-                        })}
-                      >
-                        SEND MESSAGE
-                      </Button>
-                    </Link>
+                    <button typeof="submit" className={css.btn}>
+                      SEND MESSAGE
+                    </button>
                   </Group>
+                  <Toaster />
                 </form>
               </div>
             </div>

@@ -16,3 +16,12 @@ body {
   list-style: none;
   scroll-behavior: smooth;
 }
+
+.link {
+  color: gray;
+  font-weight: 600;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

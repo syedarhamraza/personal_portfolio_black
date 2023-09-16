@@ -72,6 +72,18 @@
   padding: 20px;
 }
 
+.btn {
+  background-color: white;
+  border: 2px solid black;
+  font-size: 1rem;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: translateY(2px);
+}
+
 @media screen and (max-width: 768px) {
   .background {
     display: flex;
