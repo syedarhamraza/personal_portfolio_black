@@ -1,0 +1,43 @@
+.container {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  gap: 15rem;
+}
+.groups {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.groupinfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.groupinfo p {
+  color: rgb(162, 162, 162);
+}
+
+.groupinfo p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.leftgroup {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo {
+  margin-bottom: 5px;
+}
