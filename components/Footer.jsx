@@ -116,7 +116,7 @@ export default function Footer() {
           <div className={css.content}>
             <div className={css.leftgroup}>
               <div className={css.logo}>
-                <Avatar src="logo2.jpg" alt="it's me" size={80} radius={200} />
+                <Avatar src="logo2.png" alt="it's me" size={80} radius={200} />
               </div>
               <h3 className={css.desc}>Web Developer</h3>
             </div>

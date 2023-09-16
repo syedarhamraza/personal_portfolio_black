@@ -87,3 +87,17 @@
     padding: 7px 25px;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .button {
+    display: block;
+  }
+
+  .link {
+    display: none;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+}

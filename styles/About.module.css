@@ -84,4 +84,23 @@
 }
 
 @media screen and (max-width: 768px) {
+  .heading {
+    font-size: 2rem;
+  }
+
+  .desc {
+    font-size: 1.4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .btn {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .desc {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 }

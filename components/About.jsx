@@ -15,7 +15,7 @@ export default function About() {
         <div className={css.about}>
           <div className={css.left}>
             <div className={css.right}>
-              <Avatar src="logo.jpg" alt="it's me" size={350} radius={200} />
+              <Avatar src="logo.jpg" alt="it's me" size={330} radius={200} />
             </div>
             <h1 className={css.heading}>SYED ARHAM RAZA</h1>
             <p className={css.desc}>
