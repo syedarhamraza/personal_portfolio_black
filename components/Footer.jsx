@@ -125,24 +125,51 @@ export default function Footer() {
             <div className={css.groups}>
               <div className={css.groupinfo}>
                 <h2>SITE LINKS</h2>
-                <p>ABOUT</p>
-                <p>CONTACT</p>
-                <p>TERMS OF USE</p>
-                <p>PRIVACY POLICY</p>
+                <Link href="#about">
+                  <p>ABOUT</p>
+                </Link>
+                <Link href="#contact">
+                  <p>CONTACT</p>
+                </Link>
+                <Link href="/termsofuse">
+                  <p>TERMS OF USE</p>
+                </Link>
+                <Link href="/privacypolicy">
+                  <p>PRIVACY POLICY</p>
+                </Link>
               </div>
               <div className={css.groupinfo}>
                 <h2>USEFUL LINKS</h2>
-                <p>STORYSET</p>
-                <p>NEXTJS</p>
-                <p>MANTINE CORE</p>
-                <p>MATERIAL UI</p>
+                <Link href="https://storyset.com/online" target="_blank">
+                  <p>STORYSET</p>
+                </Link>
+                <Link href="https://nextjs.org/" target="_blank">
+                  <p>NEXTJS</p>
+                </Link>
+                <Link href="https://mantine.dev/" target="_blank">
+                  <p>MANTINE CORE</p>
+                </Link>
+                <Link href="https://mui.com/material-ui/" target="_blank">
+                  <p>MATERIAL UI</p>
+                </Link>
               </div>
               <div className={css.groupinfo}>
                 <h2>WEBSITES</h2>
-                <p>SHOPZEN</p>
-                <p>DASHBOARD</p>
-                <p>FUDO</p>
-                <p>ADMIN</p>
+                <Link href="https://front.arhamatlas.online/" target="_blank">
+                  <p>SHOPZEN</p>
+                </Link>
+                <Link
+                  href="https://dashboard.arhamatlas.online/"
+                  target="_blank"
+                >
+                  <p>DASHBOARD</p>
+                </Link>
+                <Link href="https://fudo.arhamatlas.online/" target="_blank">
+                  <p>FUDO</p>
+                </Link>
+                <Link href="https://admin.arhamatlas.online/" target="_blank">
+                  <p>ADMIN</p>
+                </Link>
               </div>
             </div>
           </div>
