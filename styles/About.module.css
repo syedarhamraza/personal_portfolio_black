@@ -76,6 +76,22 @@
   cursor: pointer;
 }
 
+.links a:link {
+  color: rgb(255, 255, 255);
+}
+
+.links a:visited {
+  color: rgb(255, 255, 255);
+}
+
+.links:link {
+  color: rgb(255, 255, 255);
+}
+
+.links:visited {
+  color: rgb(255, 255, 255);
+}
+
 .right {
   display: flex;
   align-items: center;

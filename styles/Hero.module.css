@@ -77,6 +77,22 @@
   cursor: pointer;
 }
 
+.links a:link {
+  color: black;
+}
+
+.links a:visited {
+  color: black;
+}
+
+.links:link {
+  color: black;
+}
+
+.links:visited {
+  color: black;
+}
+
 @media screen and (max-width: 768px) {
   .heading {
     font-size: 2.5rem;

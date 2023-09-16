@@ -30,10 +30,20 @@ export default function About() {
             </Link>
             <div className={css.social}>
               <div className={css.links}>
-                <InstagramIcon sx={{ fontSize: 40 }} />
+                <Link
+                  href="https://www.instagram.com/_syedarham_raza_/"
+                  target="_blank"
+                >
+                  <InstagramIcon sx={{ fontSize: 40 }} />
+                </Link>
               </div>
               <div className={css.links}>
-                <WhatsAppIcon sx={{ fontSize: 40 }} />
+                <Link
+                  href="https://api.whatsapp.com/send/?phone=923339555742&text&type=phone_number&app_absent=0"
+                  target="_blank"
+                >
+                  <WhatsAppIcon sx={{ fontSize: 40 }} />
+                </Link>
               </div>
             </div>
           </div>

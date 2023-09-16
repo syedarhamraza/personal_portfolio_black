@@ -27,13 +27,25 @@ export default function ShuffleHero() {
           </div>
           <div className={css.social}>
             <div className={css.links}>
-              <InstagramIcon sx={{ fontSize: 40 }} />
+              <Link
+                href="https://www.instagram.com/_dev_arham/"
+                target="_blank"
+              >
+                <InstagramIcon sx={{ fontSize: 40 }} />
+              </Link>
             </div>
             <div className={css.links}>
-              <LinkedInIcon sx={{ fontSize: 40 }} />
+              <Link
+                href="https://www.linkedin.com/in/arham-raza-b27327269/"
+                target="_blank"
+              >
+                <LinkedInIcon sx={{ fontSize: 40 }} />
+              </Link>
             </div>
             <div className={css.links}>
-              <GitHubIcon sx={{ fontSize: 40 }} />
+              <Link href="https://github.com/arhamraza112" target="_blank">
+                <GitHubIcon sx={{ fontSize: 40 }} />
+              </Link>
             </div>
           </div>
         </div>

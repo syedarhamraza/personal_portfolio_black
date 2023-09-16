@@ -99,9 +99,9 @@ export default function Projects() {
                       </Group>
 
                       <Text size="sm" color="dimmed">
-                        With Fjord Tours you can explore more of the magical
-                        fjord landscapes with tours and activities on and around
-                        the fjords of Norway
+                        A fullstack porfolio made with sanity as a backend with
+                        Animations for smooth looks, with everything functional
+                        and working.
                       </Text>
 
                       <div className={css.buttons}>
@@ -177,24 +177,24 @@ export default function Projects() {
                       </Card.Section>
 
                       <Group position="apart" mt="md" mb="xs">
-                        <Text weight={500}>Norway Fjord Adventures</Text>
+                        <Text weight={500}>Purple Portfolio</Text>
                         <Group position="left" spacing="xs">
                           <Badge color="dark" radius="xs" variant="filled">
-                            On Sale
+                            HTML
                           </Badge>
                           <Badge color="dark" radius="xs" variant="filled">
-                            On Sale
+                            CSS
                           </Badge>
                           <Badge color="dark" radius="xs" variant="filled">
-                            On Sale
+                            JAVASCRIPT
                           </Badge>
                         </Group>
                       </Group>
 
                       <Text size="sm" color="dimmed">
-                        With Fjord Tours you can explore more of the magical
-                        fjord landscapes with tours and activities on and around
-                        the fjords of Norway
+                        A Portfolio website made with HTML, CSS and
+                        javascript.It uses Bootsrap for components and its fully
+                        responsive for mobile
                       </Text>
 
                       <div className={css.buttons}>
@@ -263,31 +263,30 @@ export default function Projects() {
                     <Card shadow="sm" padding="lg" radius="xs">
                       <Card.Section>
                         <Image
-                          src="https://images.unsplash.com/photo-1527004013197-933c4bb611b3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=720&q=80"
+                          src="https://i.ibb.co/f8gnH64/Screenshot-1.png"
                           height={250}
-                          alt="Norway"
+                          alt="Shopzen"
                         />
                       </Card.Section>
 
                       <Group position="apart" mt="md" mb="xs">
-                        <Text weight={500}>Norway Fjord Adventures</Text>
+                        <Text weight={500}>ShopZen Dashboard</Text>
                         <Group position="left" spacing="xs">
                           <Badge color="dark" radius="xs" variant="filled">
-                            On Sale
+                            MONGODB
                           </Badge>
                           <Badge color="dark" radius="xs" variant="filled">
-                            On Sale
+                            NEXTJS
                           </Badge>
                           <Badge color="dark" radius="xs" variant="filled">
-                            On Sale
+                            TAILWINDCSS
                           </Badge>
                         </Group>
                       </Group>
 
                       <Text size="sm" color="dimmed">
-                        With Fjord Tours you can explore more of the magical
-                        fjord landscapes with tours and activities on and around
-                        the fjords of Norway
+                        A Admin dashboard made to manage e-commerce websites. It
+                        uses MongoDB as a database and TailwindsCSS for styling
                       </Text>
 
                       <div className={css.buttons}>
@@ -362,31 +361,31 @@ export default function Projects() {
                     <Card shadow="sm" padding="lg" radius="xs">
                       <Card.Section>
                         <Image
-                          src="https://images.unsplash.com/photo-1527004013197-933c4bb611b3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=720&q=80"
+                          src="https://i.ibb.co/42v37j8/Screenshot-2.png"
                           height={250}
-                          alt="Norway"
+                          alt="E-commerce"
                         />
                       </Card.Section>
 
                       <Group position="apart" mt="md" mb="xs">
-                        <Text weight={500}>Norway Fjord Adventures</Text>
+                        <Text weight={500}>E-commerce</Text>
                         <Group position="left" spacing="xs">
                           <Badge color="dark" radius="xs" variant="filled">
-                            On Sale
+                            MONGODB
                           </Badge>
                           <Badge color="dark" radius="xs" variant="filled">
-                            On Sale
+                            STYLEDCOMPONENETS
                           </Badge>
                           <Badge color="dark" radius="xs" variant="filled">
-                            On Sale
+                            NEXTJS
                           </Badge>
                         </Group>
                       </Group>
 
                       <Text size="sm" color="dimmed">
-                        With Fjord Tours you can explore more of the magical
-                        fjord landscapes with tours and activities on and around
-                        the fjords of Norway
+                        Fully Functional Full stack E-commerce website made with
+                        NextJS, ReactJS and MongoDB as a database and uses
+                        Stripe as checkout
                       </Text>
 
                       <div className={css.buttons}>
@@ -455,31 +454,31 @@ export default function Projects() {
                     <Card shadow="sm" padding="lg" radius="xs">
                       <Card.Section>
                         <Image
-                          src="https://images.unsplash.com/photo-1527004013197-933c4bb611b3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=720&q=80"
+                          src="https://i.ibb.co/dgLr3X0/Screenshot-3.png"
                           height={250}
-                          alt="Norway"
+                          alt=" AdminDashboard"
                         />
                       </Card.Section>
 
                       <Group position="apart" mt="md" mb="xs">
-                        <Text weight={500}>Norway Fjord Adventures</Text>
+                        <Text weight={500}>Admin Dashboard</Text>
                         <Group position="left" spacing="xs">
                           <Badge color="dark" radius="xs" variant="filled">
-                            On Sale
+                            PlANETSCALE
                           </Badge>
                           <Badge color="dark" radius="xs" variant="filled">
-                            On Sale
+                            NEXTJS
                           </Badge>
                           <Badge color="dark" radius="xs" variant="filled">
-                            On Sale
+                            SHADCN
                           </Badge>
                         </Group>
                       </Group>
 
                       <Text size="sm" color="dimmed">
-                        With Fjord Tours you can explore more of the magical
-                        fjord landscapes with tours and activities on and around
-                        the fjords of Norway
+                        Admin Dasboard made to manage e-commerce websites using
+                        Planetscale and MySQL as database and clerk as Auth as
+                        well as TailWindcss
                       </Text>
 
                       <div className={css.buttons}>
@@ -548,31 +547,31 @@ export default function Projects() {
                     <Card shadow="sm" padding="lg" radius="xs">
                       <Card.Section>
                         <Image
-                          src="https://images.unsplash.com/photo-1527004013197-933c4bb611b3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=720&q=80"
+                          src="https://i.ibb.co/tz3RcHb/Screenshot-10.png"
                           height={250}
-                          alt="Norway"
+                          alt="Fudo"
                         />
                       </Card.Section>
 
                       <Group position="apart" mt="md" mb="xs">
-                        <Text weight={500}>Norway Fjord Adventures</Text>
+                        <Text weight={500}>Fudo Application</Text>
                         <Group position="left" spacing="xs">
                           <Badge color="dark" radius="xs" variant="filled">
-                            On Sale
+                            SANITY
                           </Badge>
                           <Badge color="dark" radius="xs" variant="filled">
-                            On Sale
+                            NEXTJS
                           </Badge>
                           <Badge color="dark" radius="xs" variant="filled">
-                            On Sale
+                            CSSMODULES
                           </Badge>
                         </Group>
                       </Group>
 
                       <Text size="sm" color="dimmed">
-                        With Fjord Tours you can explore more of the magical
-                        fjord landscapes with tours and activities on and around
-                        the fjords of Norway
+                        Comprehensive food app built with React, Next, and
+                        Sanity, featuring a customizable menu. With many pages
+                        and fast speed.
                       </Text>
                       <div className={css.buttons}>
                         <Button

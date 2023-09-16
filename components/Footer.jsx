@@ -10,6 +10,7 @@ import {
   IconBrandGithub,
 } from "@tabler/icons-react";
 import { Avatar } from "@mantine/core";
+import Link from "next/link";
 
 const useStyles = createStyles((theme) => ({
   footer: {
@@ -118,7 +119,7 @@ export default function Footer() {
               <div className={css.logo}>
                 <Avatar src="logo2.png" alt="it's me" size={80} radius={200} />
               </div>
-              <h3 className={css.desc}>Web Developer</h3>
+              <h3 className={css.desc}>Syed Arham Raza</h3>
             </div>
 
             <div className={css.groups}>
@@ -152,15 +153,24 @@ export default function Footer() {
           </Text>
 
           <Group spacing={0} className={classes.social} position="right" noWrap>
-            <ActionIcon size="lg">
-              <IconBrandGithub size="1.05rem" stroke={1.5} />
-            </ActionIcon>
-            <ActionIcon size="lg">
-              <IconBrandWhatsapp size="1.05rem" stroke={1.5} />
-            </ActionIcon>
-            <ActionIcon size="lg">
-              <IconBrandInstagram size="1.05rem" stroke={1.5} />
-            </ActionIcon>
+            <Link href="https://www.instagram.com/_dev_arham/" target="_blank">
+              <ActionIcon size="lg">
+                <IconBrandGithub size="1.05rem" stroke={1.5} />
+              </ActionIcon>
+            </Link>
+            <Link
+              href="https://api.whatsapp.com/send/?phone=923339555742&text&type=phone_number&app_absent=0"
+              target="_blank"
+            >
+              <ActionIcon size="lg">
+                <IconBrandWhatsapp size="1.05rem" stroke={1.5} />
+              </ActionIcon>
+            </Link>
+            <Link href="https://github.com/arhamraza112" target="_blank">
+              <ActionIcon size="lg">
+                <IconBrandInstagram size="1.05rem" stroke={1.5} />
+              </ActionIcon>
+            </Link>
           </Group>
         </Container>
       </div>
