@@ -18,16 +18,16 @@ export default function Header() {
           <Link href="/">
             <span>HOME</span>
           </Link>
-          <Link href="#about">
+          <Link href="/#about">
             <span>ABOUT</span>
           </Link>
-          <Link href="#skills">
+          <Link href="/#skills">
             <span>SKILLS</span>
           </Link>
-          <Link href="#projects">
+          <Link href="/#projects">
             <span>PROJECTS</span>
           </Link>
-          <Link href="#contact">
+          <Link href="/#contact">
             <span>CONTACT</span>
           </Link>
 
@@ -51,16 +51,16 @@ export default function Header() {
               <Link href="/" onClick={close}>
                 <span>HOME</span>
               </Link>
-              <Link href="#about" onClick={close}>
+              <Link href="/#about" onClick={close}>
                 <span>ABOUT</span>
               </Link>
-              <Link href="#skills" onClick={close}>
+              <Link href="/#skills" onClick={close}>
                 <span>SKILLS</span>
               </Link>
-              <Link href="#projects" onClick={close}>
+              <Link href="/#projects" onClick={close}>
                 <span>PROJECTS</span>
               </Link>
-              <Link href="#contact" onClick={close}>
+              <Link href="/#contact" onClick={close}>
                 <span>CONTACT</span>
               </Link>
             </div>

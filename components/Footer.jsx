@@ -112,7 +112,6 @@ export default function Footer() {
   return (
     <div className={css.container}>
       <div className={classes.footer}>
-        {/* <a href="https://storyset.com/online">Online illustrations by Storyset</a> */}
         <div className={classes.inner}>
           <div className={css.content}>
             <div className={css.leftgroup}>
@@ -125,10 +124,10 @@ export default function Footer() {
             <div className={css.groups}>
               <div className={css.groupinfo}>
                 <h2>SITE LINKS</h2>
-                <Link href="#about">
+                <Link href="/#about">
                   <p>ABOUT</p>
                 </Link>
-                <Link href="#contact">
+                <Link href="/#contact">
                   <p>CONTACT</p>
                 </Link>
                 <Link href="/termsofuse">

@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-size: 5rem;
+}
+
+.desc {
+  color: gray;
+  font-weight: 500;
+  font-size: larger;
+  margin-top: 5px;
+}
+
+.background {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.pheading {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.pdesc {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  color: rgb(107, 107, 107);
+}
+
+.outline {
+  border: 2px solid black;
+  padding: 40px;
+  margin: 40px;
+}
+
+.pdesc a:link {
+  color: black;
+}
+
+.pdesc a:visited {
+  color: black;
+}
+
+.pdesc:link {
+  color: black;
+}
+
+.pdesc:visited {
+  color: black;
+}
+
+.pdesc a {
+  text-decoration: underline;
+}
