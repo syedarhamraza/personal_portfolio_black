@@ -179,7 +179,7 @@ export default function Footer() {
           </Text>
 
           <Group spacing={0} className={classes.social} position="right" noWrap>
-            <Link href="https://www.instagram.com/_dev_arham/" target="_blank">
+            <Link href="https://github.com/arhamraza112" target="_blank">
               <ActionIcon size="lg">
                 <IconBrandGithub size="1.05rem" stroke={1.5} />
               </ActionIcon>
@@ -192,7 +192,7 @@ export default function Footer() {
                 <IconBrandWhatsapp size="1.05rem" stroke={1.5} />
               </ActionIcon>
             </Link>
-            <Link href="https://github.com/arhamraza112" target="_blank">
+            <Link href="https://www.instagram.com/_dev_arham/" target="_blank">
               <ActionIcon size="lg">
                 <IconBrandInstagram size="1.05rem" stroke={1.5} />
               </ActionIcon>
