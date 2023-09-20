@@ -6,6 +6,8 @@ import Head from "next/head";
 import Link from "next/link";
 import CookieConsent from "react-cookie-consent";
 
+import { Analytics } from "@vercel/analytics/react";
+
 export default function App({ Component, pageProps }) {
   return (
     <>
@@ -34,6 +36,7 @@ export default function App({ Component, pageProps }) {
         }}
       >
         <Component {...pageProps} />
+        <Analytics />
         <ScrollToTopButton />
         <CookieConsent
           style={{
