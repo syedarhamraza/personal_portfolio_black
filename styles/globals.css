@@ -25,3 +25,10 @@ body {
 .link:hover {
   text-decoration: underline;
 }
+
+.box {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: rgb(18, 130, 186);
+}

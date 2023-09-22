@@ -15,6 +15,7 @@ export default function ShuffleHero() {
         </div>
         <div className={css.info}>
           <h3 className={css.subheading1}>Hello I&apos;m</h3>
+
           <h1 className={css.heading}>SYED ARHAM RAZA</h1>
           <h3 className={css.subheading}>Web Developer</h3>
           <div className={css.button}>
@@ -25,6 +26,7 @@ export default function ShuffleHero() {
               <button className={css.btn2}>CONTACT ME</button>
             </Link>
           </div>
+
           <div className={css.social}>
             <div className={css.links}>
               <Link

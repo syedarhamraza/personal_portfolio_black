@@ -8,6 +8,7 @@ import { useDisclosure } from "@mantine/hooks";
 
 export default function Header() {
   const [opened, { open, close }] = useDisclosure(false);
+
   return (
     <>
       <div className={css.container}>
