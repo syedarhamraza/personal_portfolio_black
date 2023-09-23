@@ -3,6 +3,7 @@ import css from "../styles/Header.module.css";
 
 import { Avatar, Drawer } from "@mantine/core";
 import MenuIcon from "@mui/icons-material/Menu";
+import CloseIcon from "@mui/icons-material/Close";
 
 import { useDisclosure } from "@mantine/hooks";
 
@@ -33,7 +34,13 @@ export default function Header() {
           </Link>
 
           <Drawer
-            position="right"
+            position="top"
+            size="100%"
+            transitionProps={{
+              transition: "slide-down",
+              duration: 400,
+              timingFunction: "linear",
+            }}
             opened={opened}
             onClose={close}
             overlayProps={{ opacity: 0.5, blur: 4 }}
@@ -43,7 +50,7 @@ export default function Header() {
               },
 
               "@media (max-width: 48em)": {
-                fontSize: "0.9rem",
+                fontSize: "3rem",
               },
             }}
           >
@@ -64,6 +71,18 @@ export default function Header() {
               <Link href="/#contact" onClick={close}>
                 <span>CONTACT</span>
               </Link>
+              <div className={css.button} onClick={close}>
+                <CloseIcon
+                  color="dark"
+                  sx={{
+                    fontSize: 40,
+                    cursor: "pointer",
+                    backgroundColor: "black",
+                    color: "white",
+                    borderRadius: "5rem",
+                  }}
+                />
+              </div>
             </div>
           </Drawer>
         </div>

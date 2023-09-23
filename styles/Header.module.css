@@ -70,12 +70,12 @@
   cursor: pointer;
 }
 
-.button {
+/* .button {
   display: none;
-}
+} */
 
 .drawer {
-  font-size: 3rem;
+  font-size: 6rem;
   display: flex;
   flex-direction: column;
   align-items: center;
