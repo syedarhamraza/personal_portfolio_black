@@ -2,14 +2,15 @@
   font-size: 1.7rem;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 25px;
-  border-bottom: 1px solid rgb(213, 213, 213);
+  /* border-bottom: 1px solid rgb(213, 213, 213); */
+  margin-bottom: -2rem;
 }
 
 .link {
   display: flex;
-  gap: 2rem;
+  gap: 2.5rem;
   align-items: center;
   border: none;
 }
@@ -127,6 +128,7 @@
     display: flex;
     justify-content: space-between;
     padding: 7px 25px;
+    margin-bottom: -1.3rem;
   }
 }
 

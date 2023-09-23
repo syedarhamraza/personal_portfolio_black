@@ -1,4 +1,3 @@
-import ScrollToTopButton from "@/components/ScrollToTopButton";
 import "@/styles/globals.css";
 
 import { MantineProvider } from "@mantine/core";
@@ -7,6 +6,9 @@ import Link from "next/link";
 import CookieConsent from "react-cookie-consent";
 
 import { Analytics } from "@vercel/analytics/react";
+
+import ScrollToTopButton from "@/components/ScrollToTopButton";
+import Hamburger from "@/components/Hamburger";
 
 export default function App({ Component, pageProps }) {
   return (
@@ -36,6 +38,7 @@ export default function App({ Component, pageProps }) {
         }}
       >
         <Component {...pageProps} />
+        <Hamburger />
         <Analytics />
         <ScrollToTopButton />
         <CookieConsent

@@ -17,21 +17,23 @@ export default function Header() {
           <Avatar src="logo.png" alt="it's me" size={50} radius={200} />
         </div>
         <div className={css.link}>
-          <Link href="/">
-            <span>HOME</span>
-          </Link>
-          <Link href="/#about">
-            <span>ABOUT</span>
-          </Link>
-          <Link href="/#skills">
-            <span>SKILLS</span>
-          </Link>
-          <Link href="/#projects">
-            <span>PROJECTS</span>
-          </Link>
-          <Link href="/#contact">
-            <span>CONTACT</span>
-          </Link>
+          <div className={css.background}>
+            <Link href="/">
+              <span>HOME</span>
+            </Link>
+            <Link href="/#about">
+              <span>ABOUT</span>
+            </Link>
+            <Link href="/#skills">
+              <span>SKILLS</span>
+            </Link>
+            <Link href="/#projects">
+              <span>PROJECTS</span>
+            </Link>
+            <Link href="/#contact">
+              <span>CONTACT</span>
+            </Link>
+          </div>
 
           <Drawer
             position="top"
