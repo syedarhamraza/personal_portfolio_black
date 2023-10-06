@@ -71,6 +71,8 @@
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
+  margin: 20px;
+  padding: 10px;
 }
 
 .links {
