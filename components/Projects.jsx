@@ -107,6 +107,7 @@ export default function Projects() {
 
                       <div className={css.buttons}>
                         <Link
+                          rel="preload"
                           href="https://www.github.com/arhamraza112"
                           target="_blank"
                         >
@@ -142,6 +143,7 @@ export default function Projects() {
                           </Button>
                         </Link>
                         <Link
+                          rel="preload"
                           href="https://main.arhamatlas.online/"
                           target="_blank"
                         >
@@ -210,6 +212,7 @@ export default function Projects() {
 
                       <div className={css.buttons}>
                         <Link
+                          rel="preload"
                           href="https://www.github.com/arhamraza112"
                           target="_blank"
                         >
@@ -245,6 +248,7 @@ export default function Projects() {
                           </Button>
                         </Link>
                         <Link
+                          rel="preload"
                           href="https://vanilla-portfolio-eight.vercel.app/"
                           target="_blank"
                         >
@@ -312,6 +316,7 @@ export default function Projects() {
 
                       <div className={css.buttons}>
                         <Link
+                          rel="preload"
                           href="https://www.github.com/arhamraza112"
                           target="_blank"
                         >
@@ -347,6 +352,7 @@ export default function Projects() {
                           </Button>
                         </Link>
                         <Link
+                          rel="preload"
                           href="https://dashboard.arhamatlas.online/"
                           target="_blank"
                         >
@@ -421,6 +427,7 @@ export default function Projects() {
 
                       <div className={css.buttons}>
                         <Link
+                          rel="preload"
                           href="https://www.github.com/arhamraza112"
                           target="_blank"
                         >
@@ -456,6 +463,7 @@ export default function Projects() {
                           </Button>
                         </Link>
                         <Link
+                          rel="preload"
                           href="https://front.arhamatlas.online/"
                           target="_blank"
                         >
@@ -524,6 +532,7 @@ export default function Projects() {
 
                       <div className={css.buttons}>
                         <Link
+                          rel="preload"
                           href="https://www.github.com/arhamraza112"
                           target="_blank"
                         >
@@ -559,6 +568,7 @@ export default function Projects() {
                           </Button>
                         </Link>
                         <Link
+                          rel="preload"
                           href="https://admin.arhamatlas.online/"
                           target="_blank"
                         >
@@ -626,6 +636,7 @@ export default function Projects() {
                       </Text>
                       <div className={css.buttons}>
                         <Link
+                          rel="preload"
                           href="https://www.github.com/arhamraza112"
                           target="_blank"
                         >
@@ -661,6 +672,7 @@ export default function Projects() {
                           </Button>
                         </Link>
                         <Link
+                          rel="preload"
                           href="https://fudo.arhamatlas.online/"
                           target="_blank"
                         >

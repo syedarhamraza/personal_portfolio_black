@@ -139,34 +139,55 @@ export default function Footer() {
               </div>
               <div className={css.groupinfo}>
                 <h2>USEFUL LINKS</h2>
-                <Link href="https://storyset.com/online" target="_blank">
+                <Link
+                  rel="preload"
+                  href="https://storyset.com/online"
+                  target="_blank"
+                >
                   <p>STORYSET</p>
                 </Link>
-                <Link href="https://nextjs.org/" target="_blank">
+                <Link rel="preload" href="https://nextjs.org/" target="_blank">
                   <p>NEXTJS</p>
                 </Link>
-                <Link href="https://mantine.dev/" target="_blank">
+                <Link rel="preload" href="https://mantine.dev/" target="_blank">
                   <p>MANTINE CORE</p>
                 </Link>
-                <Link href="https://mui.com/material-ui/" target="_blank">
+                <Link
+                  rel="preload"
+                  href="https://mui.com/material-ui/"
+                  target="_blank"
+                >
                   <p>MATERIAL UI</p>
                 </Link>
               </div>
               <div className={css.groupinfo}>
                 <h2>WEBSITES</h2>
-                <Link href="https://front.arhamatlas.online/" target="_blank">
+                <Link
+                  rel="preload"
+                  href="https://front.arhamatlas.online/"
+                  target="_blank"
+                >
                   <p>SHOPZEN</p>
                 </Link>
                 <Link
+                  rel="preload"
                   href="https://dashboard.arhamatlas.online/"
                   target="_blank"
                 >
                   <p>DASHBOARD</p>
                 </Link>
-                <Link href="https://fudo.arhamatlas.online/" target="_blank">
+                <Link
+                  rel="preload"
+                  href="https://fudo.arhamatlas.online/"
+                  target="_blank"
+                >
                   <p>FUDO</p>
                 </Link>
-                <Link href="https://admin.arhamatlas.online/" target="_blank">
+                <Link
+                  rel="preload"
+                  href="https://admin.arhamatlas.online/"
+                  target="_blank"
+                >
                   <p>ADMIN</p>
                 </Link>
               </div>
@@ -179,12 +200,17 @@ export default function Footer() {
           </Text>
 
           <Group spacing={0} className={classes.social} position="right" noWrap>
-            <Link href="https://github.com/arhamraza112" target="_blank">
+            <Link
+              rel="preload"
+              href="https://github.com/arhamraza112"
+              target="_blank"
+            >
               <ActionIcon size="lg">
                 <IconBrandGithub size="1.05rem" stroke={1.5} />
               </ActionIcon>
             </Link>
             <Link
+              rel="preload"
               href="https://api.whatsapp.com/send/?phone=923339555742&text&type=phone_number&app_absent=0"
               target="_blank"
             >
@@ -192,7 +218,11 @@ export default function Footer() {
                 <IconBrandWhatsapp size="1.05rem" stroke={1.5} />
               </ActionIcon>
             </Link>
-            <Link href="https://www.instagram.com/_dev_arham/" target="_blank">
+            <Link
+              rel="preload"
+              href="https://www.instagram.com/_dev_arham/"
+              target="_blank"
+            >
               <ActionIcon size="lg">
                 <IconBrandInstagram size="1.05rem" stroke={1.5} />
               </ActionIcon>

@@ -1,8 +1,4 @@
-import Image from "next/image";
 import css from "../styles/Skills.module.css";
-import skill1 from "@/assets/figma.webp";
-import skill2 from "@/assets/react.webp";
-import skill3 from "@/assets/cpp.webp";
 import { RingProgress, Tabs, Text } from "@mantine/core";
 import Reveal from "./Reveal";
 

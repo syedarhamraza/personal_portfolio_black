@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import styles from "../styles/Hamburger.module.css";
 
-import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 import CloseIcon from "@mui/icons-material/Close";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Avatar, Drawer } from "@mantine/core";

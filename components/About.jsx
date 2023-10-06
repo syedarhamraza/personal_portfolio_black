@@ -2,7 +2,6 @@ import css from "../styles/About.module.css";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import Link from "next/link";
-import logo from "@/assets/logo.jpg";
 
 import { Avatar } from "@mantine/core";
 
@@ -31,6 +30,7 @@ export default function About() {
             <div className={css.social}>
               <div className={css.links}>
                 <Link
+                  rel="preload"
                   href="https://www.instagram.com/_syedarham_raza_/"
                   target="_blank"
                 >
@@ -39,6 +39,7 @@ export default function About() {
               </div>
               <div className={css.links}>
                 <Link
+                  rel="preload"
                   href="https://api.whatsapp.com/send/?phone=923339555742&text&type=phone_number&app_absent=0"
                   target="_blank"
                 >

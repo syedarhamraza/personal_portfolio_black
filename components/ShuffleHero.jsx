@@ -11,7 +11,13 @@ export default function ShuffleHero() {
     <>
       <div className={css.container}>
         <div>
-          <Image src={logo} width={450} height={450} alt="" />
+          <Image
+            loading="buffered"
+            src={logo}
+            width={450}
+            height={450}
+            alt=""
+          />
         </div>
         <div className={css.info}>
           <h3 className={css.subheading1}>Hello I&apos;m</h3>

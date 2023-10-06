@@ -1,19 +1,10 @@
 import css from "@/styles/Contact.module.css";
-import {
-  TextInput,
-  Textarea,
-  SimpleGrid,
-  Group,
-  Title,
-  Button,
-  rem,
-} from "@mantine/core";
+import { TextInput, Textarea, SimpleGrid, Group, Title } from "@mantine/core";
 
 import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
 import PhoneIcon from "@mui/icons-material/Phone";
 import FmdGoodIcon from "@mui/icons-material/FmdGood";
 import WbSunnyIcon from "@mui/icons-material/WbSunny";
-import Link from "next/link";
 
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
