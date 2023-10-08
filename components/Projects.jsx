@@ -77,11 +77,24 @@ export default function Projects() {
                   <div className={css.card}>
                     <Card shadow="sm" padding="lg" radius="xs">
                       <Card.Section>
-                        <Image
-                          src="https://i.ibb.co/HGp0nMb/readme-md.png"
-                          height={250}
-                          alt="porfolio sanity"
-                        />
+                        <div className={css.imageContainer}>
+                          <Image
+                            className={css.image}
+                            src="https://i.ibb.co/HGp0nMb/readme-md.png"
+                            height={250}
+                            alt="porfolio sanity"
+                          />
+                          <div className={css.overlay}>
+                            <button className={css.overlayButton}>
+                              <Link
+                                target="_blank"
+                                href="https://i.ibb.co/HGp0nMb/readme-md.png"
+                              >
+                                Fullscreen
+                              </Link>
+                            </button>
+                          </div>
+                        </div>
                       </Card.Section>
 
                       <Group position="apart" mt="md" mb="xs">
@@ -182,11 +195,24 @@ export default function Projects() {
                     </Card>
                     <Card shadow="sm" padding="lg" radius="xs">
                       <Card.Section>
-                        <Image
-                          src="https://i.ibb.co/XtcKfJ5/purple.png"
-                          height={250}
-                          alt="Purple portfolio"
-                        />
+                        <div className={css.imageContainer}>
+                          <Image
+                            className={css.image}
+                            src="https://i.ibb.co/XtcKfJ5/purple.png"
+                            height={250}
+                            alt="Purple portfolio"
+                          />
+                          <div className={css.overlay}>
+                            <button className={css.overlayButton}>
+                              <Link
+                                target="_blank"
+                                href="https://i.ibb.co/XtcKfJ5/purple.png"
+                              >
+                                Fullscreen
+                              </Link>
+                            </button>
+                          </div>
+                        </div>
                       </Card.Section>
 
                       <Group position="apart" mt="md" mb="xs">
@@ -287,11 +313,24 @@ export default function Projects() {
                     </Card>
                     <Card shadow="sm" padding="lg" radius="xs">
                       <Card.Section>
-                        <Image
-                          src="https://i.ibb.co/f8gnH64/Screenshot-1.png"
-                          height={250}
-                          alt="Shopzen"
-                        />
+                        <div className={css.imageContainer}>
+                          <Image
+                            className={css.image}
+                            src="https://i.ibb.co/f8gnH64/Screenshot-1.png"
+                            height={250}
+                            alt="Shopzen"
+                          />
+                          <div className={css.overlay}>
+                            <button className={css.overlayButton}>
+                              <Link
+                                target="_blank"
+                                href="https://i.ibb.co/f8gnH64/Screenshot-1.png"
+                              >
+                                Fullscreen
+                              </Link>
+                            </button>
+                          </div>
+                        </div>
                       </Card.Section>
 
                       <Group position="apart" mt="md" mb="xs">
@@ -397,11 +436,24 @@ export default function Projects() {
                   <div className={css.card}>
                     <Card shadow="sm" padding="lg" radius="xs">
                       <Card.Section>
-                        <Image
-                          src="https://i.ibb.co/42v37j8/Screenshot-2.png"
-                          height={250}
-                          alt="E-commerce"
-                        />
+                        <div className={css.imageContainer}>
+                          <Image
+                            className={css.image}
+                            src="https://i.ibb.co/42v37j8/Screenshot-2.png"
+                            height={250}
+                            alt="E-commerce"
+                          />
+                          <div className={css.overlay}>
+                            <button className={css.overlayButton}>
+                              <Link
+                                target="_blank"
+                                href="https://i.ibb.co/42v37j8/Screenshot-2.png"
+                              >
+                                Fullscreen
+                              </Link>
+                            </button>
+                          </div>
+                        </div>
                       </Card.Section>
 
                       <Group position="apart" mt="md" mb="xs">
@@ -502,11 +554,24 @@ export default function Projects() {
                     </Card>
                     <Card shadow="sm" padding="lg" radius="xs">
                       <Card.Section>
-                        <Image
-                          src="https://i.ibb.co/dgLr3X0/Screenshot-3.png"
-                          height={250}
-                          alt=" AdminDashboard"
-                        />
+                        <div className={css.imageContainer}>
+                          <Image
+                            className={css.image}
+                            src="https://i.ibb.co/dgLr3X0/Screenshot-3.png"
+                            height={250}
+                            alt=" AdminDashboard"
+                          />
+                          <div className={css.overlay}>
+                            <button className={css.overlayButton}>
+                              <Link
+                                target="_blank"
+                                href="https://i.ibb.co/dgLr3X0/Screenshot-3.png"
+                              >
+                                Fullscreen
+                              </Link>
+                            </button>
+                          </div>
+                        </div>
                       </Card.Section>
 
                       <Group position="apart" mt="md" mb="xs">
@@ -607,11 +672,24 @@ export default function Projects() {
                     </Card>
                     <Card shadow="sm" padding="lg" radius="xs">
                       <Card.Section>
-                        <Image
-                          src="https://i.ibb.co/tz3RcHb/Screenshot-10.png"
-                          height={250}
-                          alt="Fudo"
-                        />
+                        <div className={css.imageContainer}>
+                          <Image
+                            className={css.image}
+                            src="https://i.ibb.co/tz3RcHb/Screenshot-10.png"
+                            height={250}
+                            alt="Fudo"
+                          />
+                          <div className={css.overlay}>
+                            <button className={css.overlayButton}>
+                              <Link
+                                target="_blank"
+                                href="https://i.ibb.co/tz3RcHb/Screenshot-10.png"
+                              >
+                                Fullscreen
+                              </Link>
+                            </button>
+                          </div>
+                        </div>
                       </Card.Section>
 
                       <Group position="apart" mt="md" mb="xs">
