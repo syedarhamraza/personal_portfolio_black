@@ -1,8 +1,7 @@
 import Link from "next/link";
 import css from "../styles/Header.module.css";
 
-import { Avatar, Drawer } from "@mantine/core";
-import MenuIcon from "@mui/icons-material/Menu";
+import { Avatar, Burger, Drawer } from "@mantine/core";
 import CloseIcon from "@mui/icons-material/Close";
 
 import { useDisclosure } from "@mantine/hooks";
@@ -89,7 +88,7 @@ export default function Header() {
           </Drawer>
         </div>
         <div className={css.button} onClick={open}>
-          <MenuIcon color="dark" sx={{ fontSize: 40, cursor: "pointer" }} />
+          <Burger size="lg" opened={opened} aria-label="Toggle navigation" />
         </div>
       </div>
     </>

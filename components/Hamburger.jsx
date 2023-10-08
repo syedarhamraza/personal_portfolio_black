@@ -2,8 +2,7 @@ import { useEffect, useState } from "react";
 import styles from "../styles/Hamburger.module.css";
 
 import CloseIcon from "@mui/icons-material/Close";
-import MenuIcon from "@mui/icons-material/Menu";
-import { Avatar, Drawer } from "@mantine/core";
+import { Avatar, Burger, Drawer } from "@mantine/core";
 import Link from "next/link";
 
 import { useDisclosure } from "@mantine/hooks";
@@ -83,7 +82,7 @@ export default function Hamburger() {
         }`}
         onClick={open}
       >
-        <MenuIcon color="dark" sx={{ fontSize: 40, cursor: "pointer" }} />
+        <Burger size="lg" opened={opened} aria-label="Toggle navigation" />
       </div>
     </>
   );
