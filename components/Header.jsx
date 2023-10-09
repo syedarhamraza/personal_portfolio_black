@@ -6,6 +6,7 @@ import CloseIcon from "@mui/icons-material/Close";
 
 import { useDisclosure } from "@mantine/hooks";
 import RevealMenu from "./RevealMenu";
+import Image from "next/image";
 
 export default function Header() {
   const [opened, { open, close }] = useDisclosure(false);
@@ -14,7 +15,7 @@ export default function Header() {
     <>
       <div className={css.container}>
         <div className={css.logo}>
-          <Avatar src="logo.png" alt="it's me" size={50} radius={200} />
+          <Image src="/logo.png" alt="it's me" width={50} height={50} />
         </div>
         <div className={css.link}>
           <div className={css.background}>

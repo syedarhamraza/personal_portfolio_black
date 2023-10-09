@@ -40,6 +40,9 @@
 
 .logo {
   margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 820px) {

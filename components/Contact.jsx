@@ -50,7 +50,7 @@ export default function Contact() {
                   </div>
                   <div className={css.link}>
                     <h3 className={css.subhead}>Email</h3>
-                    <h2>arhamraza399@gmail.com</h2>
+                    <h2>arhamraza@programmer.net</h2>
                   </div>
                 </div>
                 <div className={css.info}>

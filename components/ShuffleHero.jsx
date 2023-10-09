@@ -11,7 +11,7 @@ export default function ShuffleHero() {
     <>
       <div className={css.container}>
         <div>
-          <Image src={logo} width={450} height={450} alt="" />
+          <Image src={logo} width={450} height={450} alt="hero image" />
         </div>
         <div className={css.info}>
           <h3 className={css.subheading1}>Hello I&apos;m</h3>
@@ -33,7 +33,7 @@ export default function ShuffleHero() {
                 href="https://www.instagram.com/_dev_arham/"
                 target="_blank"
               >
-                <InstagramIcon sx={{ fontSize: 40 }} />
+                <InstagramIcon sx={{ fontSize: 35 }} />
               </Link>
             </div>
             <div className={css.links}>
@@ -41,12 +41,12 @@ export default function ShuffleHero() {
                 href="https://www.linkedin.com/in/arham-raza-b27327269/"
                 target="_blank"
               >
-                <LinkedInIcon sx={{ fontSize: 40 }} />
+                <LinkedInIcon sx={{ fontSize: 35 }} />
               </Link>
             </div>
             <div className={css.links}>
               <Link href="https://github.com/arhamraza112" target="_blank">
-                <GitHubIcon sx={{ fontSize: 40 }} />
+                <GitHubIcon sx={{ fontSize: 35 }} />
               </Link>
             </div>
           </div>

@@ -4,6 +4,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import Link from "next/link";
 
 import { Avatar } from "@mantine/core";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -15,7 +16,13 @@ export default function About() {
           <div className={css.left}>
             <div className={css.right}>
               <div className={css.avatarContainer}>
-                <Avatar src="logo.jpg" alt="it's me" size={330} radius={200} />
+                <Image
+                  src="/logo.jpg"
+                  alt="it's me"
+                  width={330}
+                  height={330}
+                  className={css.logoo}
+                />
                 <div className={css.signature}>SYED</div>
               </div>
             </div>

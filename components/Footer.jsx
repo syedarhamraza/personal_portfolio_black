@@ -11,6 +11,7 @@ import {
 } from "@tabler/icons-react";
 import { Avatar } from "@mantine/core";
 import Link from "next/link";
+import Image from "next/image";
 
 const useStyles = createStyles((theme) => ({
   footer: {
@@ -116,7 +117,7 @@ export default function Footer() {
           <div className={css.content}>
             <div className={css.leftgroup}>
               <div className={css.logo}>
-                <Avatar src="logo2.png" alt="it's me" size={80} radius={200} />
+                <Image src="/logo2.png" alt="it's me" width={80} height={80} />
               </div>
               <h3 className={css.desc}>Syed Arham Raza</h3>
             </div>

@@ -27,7 +27,7 @@ export default function RevealMenu({ children }) {
           delay: 0.5,
           type: "spring",
           stiffness: 300, // Increase stiffness for more rigidity
-          damping: 10, // Increase damping for smoother motion
+          damping: 20, // Increase damping for smoother motion
         }}
       >
         {children}
