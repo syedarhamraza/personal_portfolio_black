@@ -6,6 +6,7 @@ import { Avatar, Burger, Drawer } from "@mantine/core";
 import Link from "next/link";
 
 import { useDisclosure } from "@mantine/hooks";
+import RevealMenu from "./RevealMenu";
 
 export default function Hamburger() {
   const handleScroll = () => {
@@ -44,36 +45,38 @@ export default function Hamburger() {
           },
         }}
       >
-        <div className={styles.drawer}>
-          <Avatar src="logo.png" alt="it's me" size={150} radius={200} />
-          <Link href="/" onClick={close}>
-            <span>HOME</span>
-          </Link>
-          <Link href="/#about" onClick={close}>
-            <span>ABOUT</span>
-          </Link>
-          <Link href="/#skills" onClick={close}>
-            <span>SKILLS</span>
-          </Link>
-          <Link href="/#projects" onClick={close}>
-            <span>PROJECTS</span>
-          </Link>
-          <Link href="/#contact" onClick={close}>
-            <span>CONTACT</span>
-          </Link>
-          <div className={styles.button} onClick={close}>
-            <CloseIcon
-              color="dark"
-              sx={{
-                fontSize: 40,
-                cursor: "pointer",
-                backgroundColor: "black",
-                color: "white",
-                borderRadius: "5rem",
-              }}
-            />
+        <RevealMenu>
+          <div className={styles.drawer}>
+            <Avatar src="logo.png" alt="it's me" size={150} radius={200} />
+            <Link href="/" onClick={close}>
+              <span>HOME</span>
+            </Link>
+            <Link href="/#about" onClick={close}>
+              <span>ABOUT</span>
+            </Link>
+            <Link href="/#skills" onClick={close}>
+              <span>SKILLS</span>
+            </Link>
+            <Link href="/#projects" onClick={close}>
+              <span>PROJECTS</span>
+            </Link>
+            <Link href="/#contact" onClick={close}>
+              <span>CONTACT</span>
+            </Link>
+            <div className={styles.button} onClick={close}>
+              <CloseIcon
+                color="dark"
+                sx={{
+                  fontSize: 40,
+                  cursor: "pointer",
+                  backgroundColor: "black",
+                  color: "white",
+                  borderRadius: "5rem",
+                }}
+              />
+            </div>
           </div>
-        </div>
+        </RevealMenu>
       </Drawer>
 
       <div

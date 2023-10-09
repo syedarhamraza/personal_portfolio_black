@@ -99,6 +99,25 @@
   margin-bottom: 2rem;
 }
 
+.signature {
+  position: absolute;
+  bottom: 30px;
+  right: 5px;
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #ffffff;
+  background-color: transparent;
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+.avatarContainer {
+  position: relative; /* Make the container relative */
+  display: inline-block; /* Ensure the container takes only the necessary space */
+}
+
 @media screen and (max-width: 768px) {
   .heading {
     font-size: 2rem;

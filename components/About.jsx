@@ -14,8 +14,12 @@ export default function About() {
         <div className={css.about}>
           <div className={css.left}>
             <div className={css.right}>
-              <Avatar src="logo.jpg" alt="it's me" size={330} radius={200} />
+              <div className={css.avatarContainer}>
+                <Avatar src="logo.jpg" alt="it's me" size={330} radius={200} />
+                <div className={css.signature}>SYED</div>
+              </div>
             </div>
+
             <h1 className={css.heading}>SYED ARHAM RAZA</h1>
             <p className={css.desc}>
               I&apos;m a one-year-experienced web developer proficient in HTML,
