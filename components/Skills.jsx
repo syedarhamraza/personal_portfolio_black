@@ -1,6 +1,27 @@
 import css from "../styles/Skills.module.css";
 import { RingProgress, Tabs, Text } from "@mantine/core";
 import Reveal from "./Reveal";
+import { useSpring, animated } from "react-spring";
+import { useInView } from "react-intersection-observer";
+
+function Number({ n }) {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
+
+  const { number } = useSpring({
+    from: { number: 0 },
+    number: inView ? n : 0,
+    delay: 200,
+    config: { mass: 1, tension: 20, friction: 10 },
+  });
+
+  return (
+    <div ref={ref}>
+      {inView && <animated.div>{number.to((n) => n.toFixed(0))}</animated.div>}
+    </div>
+  );
+}
 
 export default function Skills() {
   return (
@@ -78,7 +99,9 @@ export default function Skills() {
                               align="center"
                               size="xl"
                             >
-                              85%
+                              <span className={css.number}>
+                                <Number n={85} /> <span>%</span>
+                              </span>
                             </Text>
                           }
                         />
@@ -95,7 +118,9 @@ export default function Skills() {
                               align="center"
                               size="xl"
                             >
-                              70%
+                              <span className={css.number}>
+                                <Number n={70} /> <span>%</span>
+                              </span>
                             </Text>
                           }
                         />
@@ -112,7 +137,9 @@ export default function Skills() {
                               align="center"
                               size="xl"
                             >
-                              30%
+                              <span className={css.number}>
+                                <Number n={30} /> <span>%</span>
+                              </span>
                             </Text>
                           }
                         />
@@ -137,7 +164,9 @@ export default function Skills() {
                               align="center"
                               size="xl"
                             >
-                              40%
+                              <span className={css.number}>
+                                <Number n={40} /> <span>%</span>
+                              </span>
                             </Text>
                           }
                         />
@@ -154,7 +183,9 @@ export default function Skills() {
                               align="center"
                               size="xl"
                             >
-                              35%
+                              <span className={css.number}>
+                                <Number n={35} /> <span>%</span>
+                              </span>
                             </Text>
                           }
                         />
@@ -171,7 +202,9 @@ export default function Skills() {
                               align="center"
                               size="xl"
                             >
-                              60%
+                              <span className={css.number}>
+                                <Number n={60} /> <span>%</span>
+                              </span>
                             </Text>
                           }
                         />
