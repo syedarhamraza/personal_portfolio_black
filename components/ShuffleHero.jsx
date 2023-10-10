@@ -5,6 +5,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import Link from "next/link";
+import { TypeAnimation } from "react-type-animation";
 
 export default function ShuffleHero() {
   return (
@@ -25,7 +26,23 @@ export default function ShuffleHero() {
           <h3 className={css.subheading1}>Hello I&apos;m</h3>
 
           <h1 className={css.heading}>SYED ARHAM RAZA</h1>
-          <h3 className={css.subheading}>Web Developer</h3>
+          <h3 className={css.subheading}>
+            <TypeAnimation
+              sequence={[
+                // Same substring at the start will only be typed out once, initially
+                "Web Developer",
+                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                "Programmer",
+                1000,
+                "UI/UX Designer",
+                1000,
+              ]}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+              deletionSpeed={90}
+            />
+          </h3>
           <div className={css.button}>
             <Link href="#about">
               <button className={css.btn}>GET STARTED</button>

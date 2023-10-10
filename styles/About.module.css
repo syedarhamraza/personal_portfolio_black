@@ -118,8 +118,33 @@
 }
 
 .avatarContainer {
-  position: relative; /* Make the container relative */
-  display: inline-block; /* Ensure the container takes only the necessary space */
+  position: relative;
+  display: inline-block;
+}
+
+.numbers_container {
+  margin-top: 2rem;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+}
+
+.numdesc {
+  font-size: 1.5rem;
+  color: gray;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -134,6 +159,13 @@
   }
   .btn {
     font-size: 1.4rem;
+  }
+  .numbers_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
   }
 }
 

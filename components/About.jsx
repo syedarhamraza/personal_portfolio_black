@@ -2,9 +2,49 @@ import css from "../styles/About.module.css";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import Link from "next/link";
+import React from "react";
+import { useSpring, animated } from "react-spring";
+import { useInView } from "react-intersection-observer";
 
-import { Avatar } from "@mantine/core";
 import Image from "next/image";
+
+function Number({ n }) {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
+
+  const { number } = useSpring({
+    from: { number: 0 },
+    number: inView ? n : 0,
+    delay: 200,
+    config: { mass: 1, tension: 20, friction: 10 },
+  });
+
+  return (
+    <div ref={ref}>
+      {inView && <animated.div>{number.to((n) => n.toFixed(0))}</animated.div>}
+    </div>
+  );
+}
+
+function Numbertwo({ n }) {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
+
+  const { number } = useSpring({
+    from: { number: 1800 },
+    number: inView ? n : 1800,
+    delay: 200,
+    config: { mass: 1, tension: 20, friction: 10 },
+  });
+
+  return (
+    <div ref={ref}>
+      {inView && <animated.div>{number.to((n) => n.toFixed(0))}</animated.div>}
+    </div>
+  );
+}
 
 export default function About() {
   return (
@@ -45,7 +85,7 @@ export default function About() {
                   href="https://www.instagram.com/_syedarham_raza_/"
                   target="_blank"
                 >
-                  <InstagramIcon sx={{ fontSize: 40 }} />
+                  <InstagramIcon sx={{ fontSize: 35 }} />
                 </Link>
               </div>
               <div className={css.links}>
@@ -54,8 +94,31 @@ export default function About() {
                   href="https://api.whatsapp.com/send/?phone=923339555742&text&type=phone_number&app_absent=0"
                   target="_blank"
                 >
-                  <WhatsAppIcon sx={{ fontSize: 40 }} />
+                  <WhatsAppIcon sx={{ fontSize: 35 }} />
                 </Link>
+              </div>
+            </div>
+            <div className={css.numbers_container}>
+              <div className={css.background}>
+                <span className={css.number}>
+                  <Numbertwo n={10} />
+                  <span>+</span>
+                </span>
+                <span className={css.numdesc}>Projects</span>
+              </div>
+              <div className={css.background}>
+                <span className={css.number}>
+                  <Number n={1800} />
+                  <span>+</span>
+                </span>
+                <span className={css.numdesc}>Hours</span>
+              </div>
+              <div className={css.background}>
+                <span className={css.number}>
+                  <Numbertwo n={1} />
+                  <span>+</span>
+                </span>
+                <span className={css.numdesc}>Experience</span>
               </div>
             </div>
           </div>
