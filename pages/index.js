@@ -6,6 +6,7 @@ import Reveal from "@/components/Reveal";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
+import News from "@/components/News";
 
 export default function Home() {
   return (
@@ -45,6 +46,9 @@ export default function Home() {
         </Reveal>
         <Reveal>
           <Contact />
+        </Reveal>
+        <Reveal>
+          <News />
         </Reveal>
       </Layout>
     </>
