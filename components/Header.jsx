@@ -15,7 +15,13 @@ export default function Header() {
     <>
       <div className={css.container}>
         <div className={css.logo}>
-          <Image src="/logo.png" alt="it's me" width={50} height={50} />
+          <Image
+            priority
+            src="/logo.png"
+            alt="it's me"
+            width={50}
+            height={50}
+          />
         </div>
         <div className={css.link}>
           <div className={css.background}>

@@ -13,8 +13,7 @@ export default function ShuffleHero() {
       <div className={css.container}>
         <div>
           <Image
-            as="image"
-            rel="preload"
+            priority
             loading="eager"
             src={logo}
             width={450}
