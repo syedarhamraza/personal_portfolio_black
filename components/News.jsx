@@ -1,4 +1,5 @@
 import css from "@/styles/News.module.css";
+import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
 
 export default function News() {
@@ -29,7 +30,9 @@ export default function News() {
             build and showcase your web development portfolio, stay updated on
             industry trends, and grow your skills
           </p>
-          <button className={css.btn}>SUBSCRIBE</button>
+          <Link href="https://newsletter.arhamatlas.online/" rel="preload">
+            <button className={css.btn}>SUBSCRIBE</button>
+          </Link>
         </div>
       </div>
     </>
