@@ -40,15 +40,30 @@ export default function App({ Component, pageProps }) {
           name="description"
           content="Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website. Your journey to digital excellence begins here."
         />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
         <meta itemProp="name" content="Syed Arham Raza" />
         <meta property="og:title" content="Syed Arham Raza" key="title" />
         <meta name="author" content="Arhamraza" />
         <meta name="owner" content="SyedArhamRaza" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="index, follow" />
-
-        <link rel="icon" href="/logo.png" />
-        <link rel="apple-touch-icon" href="/logo.png" />
         <link rel="icon" type="image/x-icon" href="/logo.png" />
         <link rel="icon" href="/logo.png" type="image/x-icon" />
         <link rel="shortcut icon" href="/logo.png" type="image/x-icon" />
