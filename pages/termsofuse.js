@@ -15,7 +15,7 @@ export default function termsofuse() {
             content="minimum-scale=1, initial-scale=1, width=device-width"
           />
           <title>
-            Syed Arham Raza | Web Developer Portfolio: Crafting Digital
+            Terms | Syed Arham Raza | Web Developer Portfolio: Crafting Digital
             Excellence
           </title>
           <meta
@@ -28,6 +28,11 @@ export default function termsofuse() {
           <meta name="robots" content="index, follow" />
 
           <link rel="icon" href="/logo.png" />
+          <link rel="apple-touch-icon" href="/logo.png" />
+          <link rel="icon" type="image/x-icon" href="/logo.png" />
+          <link rel="icon" href="/logo.png" type="image/x-icon" />
+          <link rel="shortcut icon" href="/logo.png" type="image/x-icon" />
+          <link rel="shortcut icon" href="/logo.png" />
         </Head>
         <Reveal>
           <div className={css.container}>

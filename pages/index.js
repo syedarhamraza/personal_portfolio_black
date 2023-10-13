@@ -7,8 +7,23 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import News from "@/components/News";
+import StructuredData from "../components/StructuredData";
 
 export default function Home() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Organization", // Change to 'Organization' type
+    name: "Syed Arham Raza", // Your organization or website name
+    url: "https://www.arhamatlas.online", // Your website URL
+    logo: "https://www.arhamatlas.online/logo.png",
+    author: [
+      {
+        "@type": "Person",
+        name: "Syed Arham Raza",
+      },
+    ],
+  };
+
   return (
     <>
       <Layout>
@@ -31,7 +46,13 @@ export default function Home() {
           <meta name="robots" content="index, follow" />
 
           <link rel="icon" href="/logo.png" />
+          <link rel="apple-touch-icon" href="/logo.png" />
+          <link rel="icon" type="image/x-icon" href="/logo.png" />
+          <link rel="icon" href="/logo.png" type="image/x-icon" />
+          <link rel="shortcut icon" href="/logo.png" type="image/x-icon" />
+          <link rel="shortcut icon" href="/logo.png" />
         </Head>
+        <StructuredData data={structuredData} />
         <Reveal>
           <ShuffleHero />
         </Reveal>
