@@ -1,16 +1,15 @@
-  <xml version="1.0" encoding="UTF-8">
-   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-     <url>
-    <loc>http://arhamatlas.online</loc>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+    <loc>http://arhamatlas.online/</loc>
     <lastmod>2023-10-09</lastmod>
   </url>
   <url>
-    <loc>http://arhamatlas.online/termsofuse</loc>
+    <loc>http://arhamatlas.online/termsofuse/</loc>
     <lastmod>2023-10-09</lastmod>
   </url>
   <url>
-    <loc>http://arhamatlas.online/privacypolicy</loc>
+    <loc>http://arhamatlas.online/privacypolicy/</loc>
     <lastmod>2023-10-09</lastmod>
   </url>
-   </urlset>
-   </xml>
+</urlset>
