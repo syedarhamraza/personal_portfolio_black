@@ -14,13 +14,10 @@ export default function termsofuse() {
             name="viewport"
             content="minimum-scale=1, initial-scale=1, width=device-width"
           />
-          <title>
-            Terms | Syed Arham Raza | Web Developer Portfolio: Crafting Digital
-            Excellence
-          </title>
+          <title>Terms-Syed Arham Raza</title>
           <meta
             name="description"
-            content="Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website. Your journey to digital excellence begins here."
+            content="Review our Terms of Use to understand the guidelines and rules for using our website. Learn about user responsibilities, content policies, and more."
           />
           <meta name="author" content="Arhamraza" />
           <meta name="owner" content="SyedArhamRaza" />

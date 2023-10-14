@@ -14,13 +14,10 @@ export default function privacypolicy() {
             name="viewport"
             content="minimum-scale=1, initial-scale=1, width=device-width"
           />
-          <title>
-            Privacy | Syed Arham Raza | Web Developer Portfolio: Crafting
-            Digital Excellence
-          </title>
+          <title>Privacy-Syed Arham Raza</title>
           <meta
             name="description"
-            content="Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website. Your journey to digital excellence begins here."
+            content="Explore our Privacy Policy to understand how we collect, use, and protect your data. Learn about your rights and our commitment to your privacy."
           />
           <meta name="author" content="Arhamraza" />
           <meta name="owner" content="SyedArhamRaza" />

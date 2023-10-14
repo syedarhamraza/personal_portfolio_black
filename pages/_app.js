@@ -14,15 +14,21 @@ import StructuredData from "../components/StructuredData";
 export default function App({ Component, pageProps }) {
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "Organization", // Change to 'Organization' type
-    name: "Syed Arham Raza", // Your organization or website name
-    url: "https://www.arhamatlas.online", // Your website URL
-    logo: "https://www.arhamatlas.online/logo.png",
-    author: [
-      {
-        "@type": "Person",
-        name: "Syed Arham Raza",
-      },
+    "@type": "WebSite",
+    url: "https://www.arhamatlas.online",
+    name: "SyedArhamRaza",
+    description:
+      "Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website.",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: "https://www.arhamatlas.online/search?q={search_term_string}",
+      "query-input": "required name=search_term_string",
+    },
+    alternateName: [
+      "Arham Raza",
+      "Arham",
+      "Syed Arham Web Developer",
+      "Syed Arham",
     ],
   };
 
@@ -38,7 +44,7 @@ export default function App({ Component, pageProps }) {
         </title>
         <meta
           name="description"
-          content="Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website. Your journey to digital excellence begins here."
+          content="Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website."
         />
         <link
           rel="apple-touch-icon"
