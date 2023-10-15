@@ -15,6 +15,7 @@ export default function ShuffleHero() {
           <Image
             priority
             loading="eager"
+            as="Image"
             src={logo}
             width={450}
             height={450}

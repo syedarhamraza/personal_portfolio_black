@@ -1,10 +1,60 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import StructuredData from "../components/StructuredData";
 
 export default function Document() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    url: "https://www.arhamatlas.online",
+    name: "SyedArhamRaza",
+    description:
+      "Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website.",
+    alternateName: [
+      "Arham Raza",
+      "Arham",
+      "Syed Arham Web Developer",
+      "Syed Arham",
+    ],
+  };
   return (
     <Html lang="en">
-      <Head />
+      <Head>
+        <StructuredData data={structuredData} />
+
+        <meta
+          name="description"
+          content="Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website."
+        />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta itemProp="name" content="Syed Arham Raza" />
+        <meta property="og:title" content="Syed Arham Raza" key="title" />
+        <meta name="author" content="Arhamraza" />
+        <meta name="owner" content="SyedArhamRaza" />
+        <meta name="robots" content="index, follow" />
+        <link rel="icon" type="image/x-icon" href="/logo.png" />
+        <link rel="icon" href="/logo.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="/logo.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="/logo.png" />
+      </Head>
       <body>
+        <StructuredData data={structuredData} />
         <Main />
         <NextScript />
       </body>

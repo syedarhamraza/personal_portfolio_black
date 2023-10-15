@@ -19,11 +19,6 @@ export default function App({ Component, pageProps }) {
     name: "SyedArhamRaza",
     description:
       "Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website.",
-    potentialAction: {
-      "@type": "SearchAction",
-      target: "https://www.arhamatlas.online/search?q={search_term_string}",
-      "query-input": "required name=search_term_string",
-    },
     alternateName: [
       "Arham Raza",
       "Arham",
