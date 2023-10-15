@@ -1,2 +1,3 @@
 User-agent: *
 Disallow:
+Sitemap: https://www.arhamatlas.online/sitemap.xml
