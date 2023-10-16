@@ -23,6 +23,12 @@ export default function privacypolicy() {
           <meta name="owner" content="SyedArhamRaza" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="robots" content="index, follow" />
+          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" type="image/png" href="/favicon.ico" />
+          <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+          <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+          <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+          <link rel="shortcut icon" href="/favicon.ico" />
 
           <link rel="icon" href="/logo.png" />
           <link rel="apple-touch-icon" href="/logo.png" />
