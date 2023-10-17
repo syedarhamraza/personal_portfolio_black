@@ -1,3 +1,4 @@
 User-agent: *
 Disallow:
-Sitemap: https://www.arhamatlas.online/sitemap.xml
+
+Sitemap: https://www.arhammastery.dev/sitemap.xml

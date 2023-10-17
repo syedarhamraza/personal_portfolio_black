@@ -19,7 +19,7 @@ export default function ShuffleHero() {
             src={logo}
             width={450}
             height={450}
-            alt="this is a hero image"
+            alt="this is a hero image of arham mastery"
           />
         </div>
         <div className={css.info}>

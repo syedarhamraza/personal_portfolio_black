@@ -18,7 +18,7 @@ export default function Header() {
           <Image
             priority
             src="/logo.png"
-            alt="arham atlas logo"
+            alt="arham mastery logo"
             width={50}
             height={50}
           />
@@ -67,7 +67,7 @@ export default function Header() {
               <div className={css.drawer}>
                 <Avatar
                   src="logo.png"
-                  alt="arham atlas logo"
+                  alt="arham mastery logo"
                   size={150}
                   radius={200}
                 />

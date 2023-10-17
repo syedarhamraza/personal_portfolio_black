@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }) {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    url: "https://www.arhamatlas.online",
+    url: "https://www.arhammastery.dev/",
     name: "Syed Arham Raza",
     description:
       "Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website.",
@@ -41,7 +41,7 @@ export default function App({ Component, pageProps }) {
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
         <title>
-          Syed Arham Raza | Web Developer Portfolio: Crafting Digital Excellence
+          Syed Arham Raza - Web Developer Portfolio: Crafting Digital Excellence
         </title>
         <meta property="og:type" content="website" />
 

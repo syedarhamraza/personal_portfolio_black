@@ -5,7 +5,7 @@ export default function Document() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    url: "https://www.arhamatlas.online",
+    url: "https://www.arhammastery.dev/",
     name: "Syed Arham Raza",
     description:
       "Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website.",

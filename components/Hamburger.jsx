@@ -49,7 +49,7 @@ export default function Hamburger() {
           <div className={styles.drawer}>
             <Avatar
               src="logo.png"
-              alt="arham atlas logo"
+              alt="arham mastery logo"
               size={150}
               radius={200}
             />
