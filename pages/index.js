@@ -14,9 +14,15 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     url: "https://www.arhamatlas.online",
-    name: "SyedArhamRaza",
+    name: "Syed Arham Raza",
     description:
       "Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website.",
+    sameAs: [
+      "https://github.com/arhamraza112",
+      "https://www.instagram.com/_syedarham_raza_/",
+      "https://www.linkedin.com/in/arham-raza-b27327269/",
+      "https://www.linkedin.com/in/syed-arham-raza-atlas/",
+    ],
     alternateName: [
       "Arham Raza",
       "Arham",
@@ -37,10 +43,14 @@ export default function Home() {
             Syed Arham Raza | Web Developer Portfolio: Crafting Digital
             Excellence
           </title>
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content="Syed Arham Raza" key="title" />
           <meta
             name="description"
             content="Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website."
           />
+          <link rel="manifest" href="/site.webmanifest" />
+          <meta itemProp="name" content="Syed Arham Raza" />
           <meta name="author" content="Arhamraza" />
           <meta name="owner" content="SyedArhamRaza" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />

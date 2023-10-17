@@ -47,7 +47,12 @@ export default function Hamburger() {
       >
         <RevealMenu>
           <div className={styles.drawer}>
-            <Avatar src="logo.png" alt="it's me" size={150} radius={200} />
+            <Avatar
+              src="logo.png"
+              alt="arham atlas logo"
+              size={150}
+              radius={200}
+            />
             <Link href="/" onClick={close}>
               <span>HOME</span>
             </Link>

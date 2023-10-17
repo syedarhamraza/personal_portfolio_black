@@ -9,7 +9,6 @@ import {
   IconBrandInstagram,
   IconBrandGithub,
 } from "@tabler/icons-react";
-import { Avatar } from "@mantine/core";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -155,6 +154,7 @@ export default function Footer() {
                 </Link>
                 <Link
                   rel="preload"
+                  as="link"
                   href="https://mui.com/material-ui/"
                   target="_blank"
                 >
@@ -162,20 +162,12 @@ export default function Footer() {
                 </Link>
               </div>
               <div className={css.groupinfo}>
-                <h2>WEBSITES</h2>
-                <Link
-                  rel="preload"
-                  href="https://front.arhamatlas.online/"
-                  target="_blank"
-                >
-                  <p>SHOPZEN</p>
+                <h2>QUICK LINKS</h2>
+                <Link as="terms" rel="preload" href="/termsofuse">
+                  <p>TERMS OF USE</p>
                 </Link>
-                <Link
-                  rel="preload"
-                  href="https://dashboard.arhamatlas.online/"
-                  target="_blank"
-                >
-                  <p>DASHBOARD</p>
+                <Link rel="preload" href="/privacypolicy" as="privacy">
+                  <p>PRIVACY POLICY</p>
                 </Link>
                 <Link
                   rel="preload"

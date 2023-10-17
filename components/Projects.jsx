@@ -82,7 +82,7 @@ export default function Projects() {
                             className={css.image}
                             src="https://i.ibb.co/HGp0nMb/readme-md.png"
                             height={250}
-                            alt="porfolio sanity"
+                            alt="my porfolio sanity"
                           />
                           <div className={css.overlay}>
                             <button className={css.overlayButton}>

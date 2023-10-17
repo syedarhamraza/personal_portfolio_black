@@ -18,7 +18,7 @@ export default function Header() {
           <Image
             priority
             src="/logo.png"
-            alt="it's me"
+            alt="arham atlas logo"
             width={50}
             height={50}
           />
@@ -65,7 +65,12 @@ export default function Header() {
           >
             <RevealMenu>
               <div className={css.drawer}>
-                <Avatar src="logo.png" alt="it's me" size={150} radius={200} />
+                <Avatar
+                  src="logo.png"
+                  alt="arham atlas logo"
+                  size={150}
+                  radius={200}
+                />
                 <Link href="/" onClick={close}>
                   <span>HOME</span>
                 </Link>

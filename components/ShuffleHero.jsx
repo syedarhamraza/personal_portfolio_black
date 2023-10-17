@@ -19,7 +19,7 @@ export default function ShuffleHero() {
             src={logo}
             width={450}
             height={450}
-            alt="hero image"
+            alt="this is a hero image"
           />
         </div>
         <div className={css.info}>

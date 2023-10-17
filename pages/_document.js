@@ -6,9 +6,15 @@ export default function Document() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     url: "https://www.arhamatlas.online",
-    name: "SyedArhamRaza",
+    name: "Syed Arham Raza",
     description:
       "Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website.",
+    sameAs: [
+      "https://github.com/arhamraza112",
+      "https://www.instagram.com/_syedarham_raza_/",
+      "https://www.linkedin.com/in/arham-raza-b27327269/",
+      "https://www.linkedin.com/in/syed-arham-raza-atlas/",
+    ],
     alternateName: [
       "Arham Raza",
       "Arham",
@@ -16,6 +22,7 @@ export default function Document() {
       "Syed Arham",
     ],
   };
+
   return (
     <Html lang="en">
       <Head>
@@ -25,6 +32,7 @@ export default function Document() {
           name="description"
           content="Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website."
         />
+        <meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" href="/favicon.ico" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />

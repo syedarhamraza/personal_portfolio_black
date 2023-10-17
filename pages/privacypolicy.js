@@ -14,10 +14,10 @@ export default function privacypolicy() {
             name="viewport"
             content="minimum-scale=1, initial-scale=1, width=device-width"
           />
-          <title>Privacy-Syed Arham Raza</title>
+          <title>Privacy</title>
           <meta
             name="description"
-            content="Explore our Privacy Policy to understand how we collect, use, and protect your data. Learn about your rights and our commitment to your privacy."
+            content="Our Privacy Policy to understand how we collect, use, and protect your data. Learn about your rights and our commitment to your privacy."
           />
           <meta name="author" content="Arhamraza" />
           <meta name="owner" content="SyedArhamRaza" />

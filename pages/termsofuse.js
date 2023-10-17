@@ -14,10 +14,10 @@ export default function termsofuse() {
             name="viewport"
             content="minimum-scale=1, initial-scale=1, width=device-width"
           />
-          <title>Terms-Syed Arham Raza</title>
+          <title>Terms</title>
           <meta
             name="description"
-            content="Review our Terms of Use to understand the guidelines and rules for using our website. Learn about user responsibilities, content policies, and more."
+            content="Our Terms of Use to understand the guidelines and rules for using our website. Learn about user responsibilities, content policies, and more."
           />
           <meta name="author" content="Arhamraza" />
           <meta name="owner" content="SyedArhamRaza" />
