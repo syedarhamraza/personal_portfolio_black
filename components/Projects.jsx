@@ -152,7 +152,7 @@ export default function Projects() {
                               },
                             })}
                           >
-                            View
+                            Repo
                           </Button>
                         </Link>
                         <Link
@@ -270,7 +270,7 @@ export default function Projects() {
                               },
                             })}
                           >
-                            View
+                            Repo
                           </Button>
                         </Link>
                         <Link
@@ -387,7 +387,7 @@ export default function Projects() {
                               },
                             })}
                           >
-                            View
+                            Repo
                           </Button>
                         </Link>
                         <Link
@@ -511,7 +511,7 @@ export default function Projects() {
                               },
                             })}
                           >
-                            View
+                            Repo
                           </Button>
                         </Link>
                         <Link
@@ -629,7 +629,7 @@ export default function Projects() {
                               },
                             })}
                           >
-                            View
+                            Repo
                           </Button>
                         </Link>
                         <Link
@@ -746,7 +746,7 @@ export default function Projects() {
                               },
                             })}
                           >
-                            View
+                            Repo
                           </Button>
                         </Link>
                         <Link
