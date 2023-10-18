@@ -7,6 +7,7 @@ export default function Document() {
     "@type": "WebSite",
     url: "https://www.arhammastery.dev/",
     name: "Syed Arham Raza",
+    logo: "https://www.arhammastery.dev/favicon.ico",
     description:
       "Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website.",
     sameAs: [
