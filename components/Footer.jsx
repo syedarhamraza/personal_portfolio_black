@@ -195,7 +195,7 @@ export default function Footer() {
           <Group spacing={0} className={classes.social} position="right" noWrap>
             <Link
               rel="preload"
-              href="https://github.com/arhamraza112"
+              href="https://github.com/arhammastery"
               target="_blank"
             >
               <ActionIcon size="lg">

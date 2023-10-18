@@ -70,7 +70,7 @@ export default function ShuffleHero() {
               </Link>
             </div>
             <div className={css.links}>
-              <Link href="https://github.com/arhamraza112" target="_blank">
+              <Link href="https://github.com/arhammastery" target="_blank">
                 <GitHubIcon sx={{ fontSize: 35 }} />
               </Link>
             </div>

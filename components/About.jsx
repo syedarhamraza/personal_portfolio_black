@@ -82,7 +82,7 @@ export default function About() {
               <div className={css.links}>
                 <Link
                   rel="preload"
-                  href="https://www.instagram.com/_syedarham_raza_/"
+                  href="https://www.instagram.com/arhammastery.dev"
                   target="_blank"
                 >
                   <InstagramIcon sx={{ fontSize: 35 }} />

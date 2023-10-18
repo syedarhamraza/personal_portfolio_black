@@ -19,8 +19,8 @@ export default function Home() {
     description:
       "Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website.",
     sameAs: [
-      "https://github.com/arhamraza112",
-      "https://www.instagram.com/_syedarham_raza_/",
+      "https://github.com/arhammastery",
+      "https://www.instagram.com/arhammastery.dev",
       "https://www.linkedin.com/in/arham-raza-b27327269/",
       "https://www.linkedin.com/in/syed-arham-raza-atlas/",
     ],

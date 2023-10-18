@@ -121,7 +121,7 @@ export default function Projects() {
                       <div className={css.buttons}>
                         <Link
                           rel="preload"
-                          href="https://www.github.com/arhamraza112"
+                          href="https://www.github.com/arhammastery"
                           target="_blank"
                         >
                           <Button
@@ -239,7 +239,7 @@ export default function Projects() {
                       <div className={css.buttons}>
                         <Link
                           rel="preload"
-                          href="https://www.github.com/arhamraza112"
+                          href="https://www.github.com/arhammastery"
                           target="_blank"
                         >
                           <Button
@@ -356,7 +356,7 @@ export default function Projects() {
                       <div className={css.buttons}>
                         <Link
                           rel="preload"
-                          href="https://www.github.com/arhamraza112"
+                          href="https://www.github.com/arhammastery"
                           target="_blank"
                         >
                           <Button
@@ -480,7 +480,7 @@ export default function Projects() {
                       <div className={css.buttons}>
                         <Link
                           rel="preload"
-                          href="https://www.github.com/arhamraza112"
+                          href="https://www.github.com/arhammastery"
                           target="_blank"
                         >
                           <Button
@@ -598,7 +598,7 @@ export default function Projects() {
                       <div className={css.buttons}>
                         <Link
                           rel="preload"
-                          href="https://www.github.com/arhamraza112"
+                          href="https://www.github.com/arhammastery"
                           target="_blank"
                         >
                           <Button
@@ -715,7 +715,7 @@ export default function Projects() {
                       <div className={css.buttons}>
                         <Link
                           rel="preload"
-                          href="https://www.github.com/arhamraza112"
+                          href="https://www.github.com/arhammastery"
                           target="_blank"
                         >
                           <Button
