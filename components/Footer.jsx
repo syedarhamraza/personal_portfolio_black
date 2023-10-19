@@ -177,12 +177,8 @@ export default function Footer() {
                 <Link rel="preload" href="/" target="_blank">
                   <p>LINKS</p>
                 </Link>
-                <Link
-                  rel="preload"
-                  href="https://admin.arhamatlas.online/"
-                  target="_blank"
-                >
-                  <p>ADMIN</p>
+                <Link rel="preload" href="/" target="_blank">
+                  <p>FAQs</p>
                 </Link>
               </div>
             </div>

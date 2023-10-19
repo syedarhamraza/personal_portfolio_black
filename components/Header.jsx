@@ -65,27 +65,40 @@ export default function Header() {
           >
             <RevealMenu>
               <div className={css.drawer}>
-                <Image
-                  priority
-                  src="/android-chrome-512x512.png"
-                  alt="arham mastery logo"
-                  width={150}
-                  height={150}
-                />
+                <div className={css.logoo}>
+                  <Image
+                    priority
+                    src="/android-chrome-512x512.png"
+                    alt="arham mastery logo"
+                    width={150}
+                    height={150}
+                  />
+                </div>
+
                 <Link href="/" onClick={close}>
-                  <span>HOME</span>
+                  <span>
+                    HOME<sup className={css.sup}>1</sup>
+                  </span>
                 </Link>
                 <Link href="/#about" onClick={close}>
-                  <span>ABOUT</span>
+                  <span>
+                    ABOUT<sup className={css.sup}>2</sup>
+                  </span>
                 </Link>
                 <Link href="/#skills" onClick={close}>
-                  <span>SKILLS</span>
+                  <span>
+                    SKILLS<sup className={css.sup}>3</sup>
+                  </span>
                 </Link>
                 <Link href="/#projects" onClick={close}>
-                  <span>PROJECTS</span>
+                  <span>
+                    PROJECTS<sup className={css.sup}>4</sup>
+                  </span>
                 </Link>
                 <Link href="/#contact" onClick={close}>
-                  <span>CONTACT</span>
+                  <span>
+                    CONTACT<sup className={css.sup}>5</sup>
+                  </span>
                 </Link>
                 <div className={css.button} onClick={close}>
                   <CloseIcon
