@@ -17,10 +17,10 @@ export default function Header() {
         <div className={css.logo}>
           <Image
             priority
-            src="/logo.png"
+            src="/android-chrome-512x512.png"
             alt="arham mastery logo"
-            width={50}
-            height={50}
+            width={70}
+            height={70}
           />
         </div>
         <div className={css.link}>
@@ -65,11 +65,12 @@ export default function Header() {
           >
             <RevealMenu>
               <div className={css.drawer}>
-                <Avatar
-                  src="logo.png"
+                <Image
+                  priority
+                  src="/android-chrome-512x512.png"
                   alt="arham mastery logo"
-                  size={150}
-                  radius={200}
+                  width={150}
+                  height={150}
                 />
                 <Link href="/" onClick={close}>
                   <span>HOME</span>

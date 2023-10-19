@@ -116,7 +116,13 @@ export default function Footer() {
           <div className={css.content}>
             <div className={css.leftgroup}>
               <div className={css.logo}>
-                <Image src="/logo2.png" alt="it's me" width={80} height={80} />
+                <Image
+                  priority
+                  src="/android-chrome-512x512.png"
+                  alt="arham mastery logo"
+                  width={80}
+                  height={80}
+                />
               </div>
               <h3 className={css.desc}>Syed Arham Raza</h3>
             </div>

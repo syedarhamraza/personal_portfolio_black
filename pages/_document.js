@@ -36,12 +36,6 @@ export default function Document() {
         />
         <meta property="og:type" content="website" />
         <link rel="canonical" href="https://www.arhammastery.dev" />
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="icon" type="image/png" href="/favicon.ico" />
-        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <link rel="shortcut icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -59,16 +53,13 @@ export default function Document() {
           sizes="16x16"
           href="/favicon-16x16.png"
         />
+        <link rel="icon" href="/favicon.ico" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta itemProp="name" content="Syed Arham Raza" />
         <meta property="og:title" content="Syed Arham Raza" key="title" />
         <meta name="author" content="Arhamraza" />
         <meta name="owner" content="SyedArhamRaza" />
         <meta name="robots" content="index, follow" />
-        <link rel="icon" type="image/x-icon" href="/logo.png" />
-        <link rel="icon" href="/logo.png" type="image/x-icon" />
-        <link rel="shortcut icon" href="/logo.png" type="image/x-icon" />
-        <link rel="shortcut icon" href="/logo.png" />
       </Head>
       <body>
         <StructuredData data={structuredData} />

@@ -57,7 +57,7 @@ export default function About() {
             <div className={css.right}>
               <div className={css.avatarContainer}>
                 <Image
-                  src="/logo.jpg"
+                  src="/logoooo.jpg"
                   alt="picture of syed arham raza"
                   width={330}
                   height={330}

@@ -7,6 +7,7 @@ import Link from "next/link";
 
 import { useDisclosure } from "@mantine/hooks";
 import RevealMenu from "./RevealMenu";
+import Image from "next/image";
 
 export default function Hamburger() {
   const handleScroll = () => {
@@ -47,11 +48,12 @@ export default function Hamburger() {
       >
         <RevealMenu>
           <div className={styles.drawer}>
-            <Avatar
-              src="logo.png"
+            <Image
+              priority
+              src="/android-chrome-512x512.png"
               alt="arham mastery logo"
-              size={150}
-              radius={200}
+              width={150}
+              height={150}
             />
             <Link href="/" onClick={close}>
               <span>HOME</span>
