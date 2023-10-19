@@ -14,12 +14,13 @@ import StructuredData from "../components/StructuredData";
 export default function App({ Component, pageProps }) {
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "WebSite",
+    "@type": "Organization",
     url: "https://www.arhammastery.dev/",
     name: "Syed Arham Raza",
     logo: "https://www.arhammastery.dev/favicon.ico",
     description:
       "Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website.",
+    email: "contact@arhammastery.dev",
     sameAs: [
       "https://github.com/arhamraza112",
       "https://www.instagram.com/_syedarham_raza_/",
@@ -50,6 +51,7 @@ export default function App({ Component, pageProps }) {
           name="description"
           content="Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website."
         />
+        <link rel="canonical" href="https://www.arhammastery.dev" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" href="/favicon.ico" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />

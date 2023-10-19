@@ -12,15 +12,16 @@ import StructuredData from "../components/StructuredData";
 export default function Home() {
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "WebSite",
+    "@type": "Organization",
     url: "https://www.arhammastery.dev/",
     name: "Syed Arham Raza",
     logo: "https://www.arhammastery.dev/favicon.ico",
     description:
       "Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website.",
+    email: "contact@arhammastery.dev",
     sameAs: [
-      "https://github.com/arhammastery",
-      "https://www.instagram.com/arhammastery.dev",
+      "https://github.com/arhamraza112",
+      "https://www.instagram.com/_syedarham_raza_/",
       "https://www.linkedin.com/in/arham-raza-b27327269/",
       "https://www.linkedin.com/in/syed-arham-raza-atlas/",
     ],
@@ -41,15 +42,16 @@ export default function Home() {
             content="minimum-scale=1, initial-scale=1, width=device-width"
           />
           <title>
-            Syed Arham Raza | Web Developer Portfolio: Crafting Digital
-            Excellence
+            Syed Arham Raza - Web Developer: Crafting Digital Excellence
           </title>
+          <link rel="icon" href="https://www.arhammastery.dev/favicon.ico" />
           <meta property="og:type" content="website" />
           <meta property="og:title" content="Syed Arham Raza" key="title" />
           <meta
             name="description"
             content="Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website."
           />
+          <link rel="canonical" href="https://www.arhammastery.dev" />
           <link rel="manifest" href="/site.webmanifest" />
           <meta itemProp="name" content="Syed Arham Raza" />
           <meta name="author" content="Arhamraza" />
