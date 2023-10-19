@@ -154,7 +154,6 @@ export default function Footer() {
                 </Link>
                 <Link
                   rel="preload"
-                  as="link"
                   href="https://mui.com/material-ui/"
                   target="_blank"
                 >
@@ -163,10 +162,10 @@ export default function Footer() {
               </div>
               <div className={css.groupinfo}>
                 <h2>QUICK LINKS</h2>
-                <Link as="terms" rel="preload" href="/termsofuse">
+                <Link rel="preload" href="/termsofuse">
                   <p>TERMS OF USE</p>
                 </Link>
-                <Link rel="preload" href="/privacypolicy" as="privacy">
+                <Link rel="preload" href="/privacypolicy">
                   <p>PRIVACY POLICY</p>
                 </Link>
                 <Link
