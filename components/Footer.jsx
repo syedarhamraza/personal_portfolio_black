@@ -124,7 +124,7 @@ export default function Footer() {
                   height={80}
                 />
               </div>
-              <h3 className={css.desc}>Syed Arham Raza</h3>
+              {/* <h3 className={css.desc}>Syed Arham Raza</h3> */}
             </div>
 
             <div className={css.groups}>
@@ -174,12 +174,8 @@ export default function Footer() {
                 <Link rel="preload" href="/privacypolicy">
                   <p>PRIVACY POLICY</p>
                 </Link>
-                <Link
-                  rel="preload"
-                  href="https://fudo.arhamatlas.online/"
-                  target="_blank"
-                >
-                  <p>FUDO</p>
+                <Link rel="preload" href="/" target="_blank">
+                  <p>LINKS</p>
                 </Link>
                 <Link
                   rel="preload"
@@ -194,7 +190,7 @@ export default function Footer() {
         </div>
         <Container className={classes.afterFooter}>
           <Text color="dimmed" size="sm">
-            © 2023 Arhamraza. All rights reserved.
+            © 2023 ArhamMastery. All rights reserved.
           </Text>
 
           <Group spacing={0} className={classes.social} position="right" noWrap>

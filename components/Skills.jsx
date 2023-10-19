@@ -1,5 +1,6 @@
 import css from "../styles/Skills.module.css";
-import { RingProgress, Tabs, Text } from "@mantine/core";
+import { Tabs, Text } from "@mantine/core";
+import { RingProgress } from "@mantine/core";
 import Reveal from "./Reveal";
 import { useSpring, animated } from "react-spring";
 import { useInView } from "react-intersection-observer";

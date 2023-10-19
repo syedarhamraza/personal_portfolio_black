@@ -1,7 +1,7 @@
 import Link from "next/link";
 import css from "../styles/Header.module.css";
 
-import { Avatar, Burger, Drawer } from "@mantine/core";
+import { Burger, Drawer } from "@mantine/core";
 import CloseIcon from "@mui/icons-material/Close";
 
 import { useDisclosure } from "@mantine/hooks";

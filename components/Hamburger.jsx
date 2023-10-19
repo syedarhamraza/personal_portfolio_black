@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import styles from "../styles/Hamburger.module.css";
 
 import CloseIcon from "@mui/icons-material/Close";
-import { Avatar, Burger, Drawer } from "@mantine/core";
+import { Burger, Drawer } from "@mantine/core";
 import Link from "next/link";
 
 import { useDisclosure } from "@mantine/hooks";
