@@ -10,6 +10,7 @@ import { Analytics } from "@vercel/analytics/react";
 import ScrollToTopButton from "@/components/ScrollToTopButton";
 import Hamburger from "@/components/Hamburger";
 import StructuredData from "../components/StructuredData";
+import Script from "next/script";
 
 export default function App({ Component, pageProps }) {
   const structuredData = {
@@ -96,6 +97,16 @@ export default function App({ Component, pageProps }) {
         <StructuredData data={structuredData} />
         <Component {...pageProps} />
         <Hamburger />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-K445B36RV3" />
+        <Script id="google-analytics">
+          {`
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+       
+         gtag('config', 'G-K445B36RV3');
+        `}
+        </Script>
         <Analytics />
         <ScrollToTopButton />
         <CookieConsent
