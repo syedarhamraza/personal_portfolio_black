@@ -46,6 +46,8 @@ export default function faq() {
         text: item.answer,
       },
     })),
+    datePublished: "2023-10-20",
+    dateModified: "2023-10-20",
   };
   return (
     <>
