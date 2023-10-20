@@ -79,6 +79,25 @@ export default function Home() {
     dateModified: "2023-10-20",
   };
 
+  const structuredData3 = {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    name: "Syed Arham Raza",
+    url: "https://www.arhammastery.dev",
+    description:
+      "Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website.",
+    email: "contact@arhammastery.dev",
+
+    alternateName: [
+      "Arham Raza",
+      "Arham",
+      "Syed Arham Web Developer",
+      "Syed Arham",
+    ],
+    datePublished: "2023-10-20",
+    dateModified: "2023-10-20",
+  };
+
   return (
     <>
       <Layout>
