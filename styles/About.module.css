@@ -68,6 +68,27 @@
   transform: translateY(2px);
 }
 
+.btn2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn3 {
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 10px 30px;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+
+.btn3:active {
+  transform: translateY(2px);
+}
 .social {
   margin-top: 50px;
   display: flex;

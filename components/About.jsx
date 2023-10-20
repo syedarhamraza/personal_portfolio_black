@@ -75,9 +75,18 @@ export default function About() {
               staying updated with the latest trends. Ready to tackle diverse
               development challenges
             </p>
-            <Link href="#projects">
-              <button className={css.btn}>PROJECTS</button>
-            </Link>
+            <div className={css.btn2}>
+              <Link href="#projects">
+                <button className={css.btn}>PROJECTS</button>
+              </Link>
+              <Link
+                rel="preload"
+                href="https://drive.google.com/file/d/1emP-zspOYfhlotogqD6NyjI87eMB33CL/view?usp=sharing"
+              >
+                <button className={css.btn3}>DOWNLOAD CV</button>
+              </Link>
+            </div>
+
             <div className={css.social}>
               <div className={css.links}>
                 <Link
