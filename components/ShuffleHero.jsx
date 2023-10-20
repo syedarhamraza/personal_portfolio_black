@@ -10,7 +10,7 @@ import { TypeAnimation } from "react-type-animation";
 export default function ShuffleHero() {
   return (
     <>
-      <div className={css.container}>
+      <section id="home" className={css.container}>
         <div>
           <Image
             priority
@@ -76,7 +76,7 @@ export default function ShuffleHero() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

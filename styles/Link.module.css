@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-size: 5rem;
+}
+
+.desc {
+  color: gray;
+  font-weight: 500;
+  font-size: larger;
+  margin-top: 5px;
+}
+
+.links ul {
+  list-style: none;
+  font-size: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.links ul li {
+  margin-bottom: 1rem;
+}
+
+.links ul a:link {
+  color: #000000;
+}
+
+.links ul a:visited {
+  color: #000000;
+}
+
+.linkstyle {
+  border: 2px solid black;
+  padding: 10px 20px;
+  width: 800px;
+}
+
+@media screen and (max-width: 768px) {
+  .links {
+    font-size: 2rem;
+    padding: 20px;
+  }
+
+  .linkstyle {
+    max-width: 300px;
+  }
+}

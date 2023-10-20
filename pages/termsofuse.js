@@ -14,7 +14,7 @@ export default function termsofuse() {
             name="viewport"
             content="minimum-scale=1, initial-scale=1, width=device-width"
           />
-          <title>Terms</title>
+          <title>Terms - ArhamMastery</title>
           <meta
             name="description"
             content="Our Terms of Use to understand the guidelines and rules for using our website. Learn about user responsibilities, content policies, and more."

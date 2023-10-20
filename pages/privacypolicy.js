@@ -14,7 +14,7 @@ export default function privacypolicy() {
             name="viewport"
             content="minimum-scale=1, initial-scale=1, width=device-width"
           />
-          <title>Privacy</title>
+          <title>Privacy - ArhamMastery</title>
           <meta
             name="description"
             content="Our Privacy Policy to understand how we collect, use, and protect your data. Learn about your rights and our commitment to your privacy."

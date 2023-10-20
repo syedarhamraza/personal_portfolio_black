@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Projects() {
   return (
     <>
-      <div className={css.container} id="projects">
+      <section id="projects" className={css.container}>
         <div className={css.projects}>
           <h1 className={css.heading}>PROJECTS</h1>
           <p className={css.desc}>SOME OF MY PROJECTS</p>
@@ -793,7 +793,7 @@ export default function Projects() {
             </Tabs>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

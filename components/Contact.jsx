@@ -36,7 +36,7 @@ export default function Contact() {
   };
   return (
     <>
-      <div className={css.container} id="contact">
+      <section id="contact" className={css.container}>
         <div className={css.contact}>
           <h1 className={css.heading}>CONTACT</h1>
           <p className={css.desc}>REACH OUT TO ME</p>
@@ -184,7 +184,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

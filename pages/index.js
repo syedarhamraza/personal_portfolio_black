@@ -7,6 +7,8 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import StructuredData from "../components/StructuredData";
+import Faq from "../components/Faq";
+import Links from "../components/Links";
 
 export default function Home() {
   const structuredData = {
@@ -87,6 +89,12 @@ export default function Home() {
         </Reveal>
         <Reveal>
           <Projects />
+        </Reveal>
+        <Reveal>
+          <Faq />
+        </Reveal>
+        <Reveal>
+          <Links />
         </Reveal>
         <Reveal>
           <Contact />

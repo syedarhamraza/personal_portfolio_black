@@ -49,7 +49,7 @@ function Numbertwo({ n }) {
 export default function About() {
   return (
     <>
-      <div className={css.container} id="about">
+      <section id="about" className={css.container}>
         <h1 className={css.title}>ABOUT</h1>
         <p className={css.titleheading}>INFORMATION ABOUT MYSELF</p>
         <div className={css.about}>
@@ -132,7 +132,7 @@ export default function About() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

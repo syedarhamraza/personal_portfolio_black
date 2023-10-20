@@ -27,7 +27,7 @@ function Number({ n }) {
 export default function Skills() {
   return (
     <>
-      <div className={css.container} id="skills">
+      <section id="skills" className={css.container}>
         <div className={css.skills}>
           <h1 className={css.heading}>SKILLS</h1>
           <p className={css.desc}>WHAT I DO</p>
@@ -217,7 +217,7 @@ export default function Skills() {
             </Tabs>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

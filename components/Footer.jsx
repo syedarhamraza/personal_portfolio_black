@@ -174,10 +174,10 @@ export default function Footer() {
                 <Link rel="preload" href="/privacypolicy">
                   <p>PRIVACY POLICY</p>
                 </Link>
-                <Link rel="preload" href="/" target="_blank">
+                <Link rel="preload" href="/links" target="_blank">
                   <p>LINKS</p>
                 </Link>
-                <Link rel="preload" href="/" target="_blank">
+                <Link rel="preload" href="/faq" target="_blank">
                   <p>FAQs</p>
                 </Link>
               </div>
