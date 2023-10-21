@@ -37,7 +37,7 @@
 }
 
 .logo {
-  padding: 0;
+  padding: 10px;
   display: flex;
   align-items: center;
 }

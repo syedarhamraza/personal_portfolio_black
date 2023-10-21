@@ -30,6 +30,7 @@
   border: 2px solid white;
   padding: 20px;
   width: 800px;
+  text-decoration: underline;
 }
 
 .link ul li {

@@ -189,8 +189,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    gap: 5rem;
+    gap: 3rem;
+  }
+  .number,
+  .numdesc {
+    font-size: 1.5rem;
   }
 }
 

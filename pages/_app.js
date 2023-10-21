@@ -8,7 +8,8 @@ import CookieConsent from "react-cookie-consent";
 import { Analytics } from "@vercel/analytics/react";
 
 import ScrollToTopButton from "@/components/ScrollToTopButton";
-import Hamburger from "@/components/Hamburger";
+
+import Sidebar from "../components/sidebar/Sidebar";
 import StructuredData from "../components/StructuredData";
 import Script from "next/script";
 
@@ -146,7 +147,6 @@ export default function App({ Component, pageProps }) {
       >
         <StructuredData data={structuredData} />
         <Component {...pageProps} />
-        <Hamburger />
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-K445B36RV3" />
         <Script id="google-analytics">
           {`
@@ -158,6 +158,7 @@ export default function App({ Component, pageProps }) {
         `}
         </Script>
         <Analytics />
+        <Sidebar />
         <ScrollToTopButton />
         <CookieConsent
           style={{
