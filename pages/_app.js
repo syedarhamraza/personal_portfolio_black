@@ -13,30 +13,63 @@ import StructuredData from "../components/StructuredData";
 import Script from "next/script";
 
 export default function App({ Component, pageProps }) {
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    url: "https://www.arhammastery.dev/",
-    name: "Syed Arham Raza",
-    logo: "https://www.arhammastery.dev/favicon.ico",
-    description:
-      "Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website.",
-    email: "contact@arhammastery.dev",
-    sameAs: [
-      "https://github.com/arhamraza112",
-      "https://www.instagram.com/_syedarham_raza_/",
-      "https://www.linkedin.com/in/arham-raza-b27327269/",
-      "https://www.linkedin.com/in/syed-arham-raza-atlas/",
-    ],
-    alternateName: [
-      "Arham Raza",
-      "Arham",
-      "Syed Arham Web Developer",
-      "Syed Arham",
-    ],
-    datePublished: "2023-10-20",
-    dateModified: "2023-10-20",
-  };
+  const structuredData = [
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      name: "Syed Arham Raza",
+      url: "https://www.arhammastery.dev",
+      description:
+        "Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website.",
+      email: "contact@arhammastery.dev",
+      alternateName: [
+        "Arham Raza",
+        "Arham",
+        "Syed Arham Web Developer",
+        "Syed Arham",
+      ],
+      datePublished: "2023-10-20",
+      dateModified: "2023-10-20",
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      url: "https://www.arhammastery.dev/",
+      name: "Syed Arham Raza",
+      logo: "https://www.arhammastery.dev/favicon.ico",
+      description:
+        "Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website.",
+      email: "contact@arhammastery.dev",
+      sameAs: [
+        "https://github.com/arhamraza112",
+        "https://www.instagram.com/_syedarham_raza_/",
+        "https://www.linkedin.com/in/arham-raza-b27327269/",
+        "https://www.linkedin.com/in/syed-arham-raza-atlas/",
+      ],
+      alternateName: [
+        "Arham Raza",
+        "Arham",
+        "Syed Arham Web Developer",
+        "Syed Arham",
+      ],
+      datePublished: "2023-10-20",
+      dateModified: "2023-10-20",
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faqData.map((item) => ({
+        "@type": "Question",
+        name: item.question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: item.answer,
+        },
+      })),
+      datePublished: "2023-10-20",
+      dateModified: "2023-10-20",
+    },
+  ];
 
   return (
     <>
