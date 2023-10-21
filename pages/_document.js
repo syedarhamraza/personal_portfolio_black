@@ -38,7 +38,6 @@ export default function Document() {
       url: "https://www.arhammastery.dev",
       description:
         "Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website.",
-      email: "contact@arhammastery.dev",
       alternateName: [
         "Arham Raza",
         "Arham",
@@ -69,8 +68,6 @@ export default function Document() {
         "Syed Arham Web Developer",
         "Syed Arham",
       ],
-      datePublished: "2023-10-20",
-      dateModified: "2023-10-20",
     },
     {
       "@context": "https://schema.org",
