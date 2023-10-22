@@ -1,11 +1,8 @@
 import "@/styles/globals.css";
 
 import { MantineProvider } from "@mantine/core";
-import Head from "next/head";
 import Link from "next/link";
 import CookieConsent from "react-cookie-consent";
-
-import { Analytics } from "@vercel/analytics/react";
 
 import ScrollToTopButton from "@/components/ScrollToTopButton";
 
@@ -32,7 +29,6 @@ export default function App({ Component, pageProps }) {
          gtag('config', 'G-K445B36RV3');
         `}
         </Script>
-        <Analytics />
         <Sidebar />
         <ScrollToTopButton />
         <CookieConsent
