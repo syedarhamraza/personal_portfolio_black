@@ -5,6 +5,7 @@ import Link from "next/link";
 import React from "react";
 import { useSpring, animated } from "react-spring";
 import { useInView } from "react-intersection-observer";
+import logo from "../assets/logo.jpg";
 
 import Image from "next/image";
 
@@ -57,7 +58,7 @@ export default function About() {
             <div className={css.right}>
               <div className={css.avatarContainer}>
                 <Image
-                  src="/logoooo.jpg"
+                  src={logo}
                   alt="picture of syed arham raza"
                   width={330}
                   height={330}
