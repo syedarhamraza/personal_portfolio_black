@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Layout from "@/components/Layout";
 import Reveal from "@/components/Reveal";
-
 import css from "@/styles/termsofuse.module.css";
 import Link from "next/link";
 

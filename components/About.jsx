@@ -50,7 +50,7 @@ export default function About() {
   return (
     <>
       <section id="about" className={css.container}>
-        <h1 className={css.title}>ABOUT</h1>
+        <h2 className={css.title}>ABOUT</h2>
         <p className={css.titleheading}>INFORMATION ABOUT MYSELF</p>
         <div className={css.about}>
           <div className={css.left}>

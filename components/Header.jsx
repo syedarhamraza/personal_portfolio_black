@@ -1,6 +1,5 @@
 import Link from "next/link";
 import css from "../styles/Header.module.css";
-import { useDisclosure } from "@mantine/hooks";
 import Image from "next/image";
 
 export default function Header() {

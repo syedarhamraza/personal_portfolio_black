@@ -8,6 +8,7 @@ import {
   IconBrandWhatsapp,
   IconBrandInstagram,
   IconBrandGithub,
+  IconAlertCircle,
 } from "@tabler/icons-react";
 import Link from "next/link";
 import Image from "next/image";
@@ -190,6 +191,11 @@ export default function Footer() {
           </Text>
 
           <Group spacing={0} className={classes.social} position="right" noWrap>
+            <Link href="https://arhammastery.statuspage.io">
+              <ActionIcon size="lg">
+                <IconAlertCircle size="1.05rem" stroke={1.5} />
+              </ActionIcon>
+            </Link>
             <Link
               rel="preload"
               href="https://github.com/arhammastery"

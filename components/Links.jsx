@@ -6,7 +6,7 @@ export default function Links() {
     <>
       <main className={classes.container}>
         <section id="table-of-contents" className={classes.link}>
-          <h1 className={classes.heading}>STRUCTURE</h1>
+          <h2 className={classes.heading}>STRUCTURE</h2>
           <p className={classes.desc}>TABLE OF CONTENT</p>
           <div className={classes.links}>
             <ul>

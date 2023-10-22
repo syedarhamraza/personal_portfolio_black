@@ -5,6 +5,12 @@ import Link from "next/link";
 export default function Faq() {
   return (
     <>
+      <div className={classes.container}>
+        <div className={classes.background}>
+          <h2 className={classes.heading}>FAQ</h2>
+          <p className={classes.desc}>ANSWERS TO YOUR QUESTIONS</p>
+        </div>
+      </div>
       <section id="frequently-asked-questions">
         <Container size="sm" className={classes.wrapper}>
           <h2 className={classes.title}>Frequently Asked Questions</h2>

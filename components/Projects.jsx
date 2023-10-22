@@ -9,7 +9,7 @@ export default function Projects() {
     <>
       <section id="projects" className={css.container}>
         <div className={css.projects}>
-          <h1 className={css.heading}>PROJECTS</h1>
+          <h2 className={css.heading}>PROJECTS</h2>
           <p className={css.desc}>SOME OF MY PROJECTS</p>
           <div className={css.tabs}>
             <Tabs

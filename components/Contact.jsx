@@ -1,11 +1,9 @@
 import css from "@/styles/Contact.module.css";
 import { TextInput, Textarea, SimpleGrid, Group, Title } from "@mantine/core";
-
 import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
 import PhoneIcon from "@mui/icons-material/Phone";
 import FmdGoodIcon from "@mui/icons-material/FmdGood";
 import WbSunnyIcon from "@mui/icons-material/WbSunny";
-
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
@@ -38,7 +36,7 @@ export default function Contact() {
     <>
       <section id="contact" className={css.container}>
         <div className={css.contact}>
-          <h1 className={css.heading}>CONTACT</h1>
+          <h2 className={css.heading}>CONTACT</h2>
           <p className={css.desc}>REACH OUT TO ME</p>
           <div className={css.background}>
             <div className={css.left}>

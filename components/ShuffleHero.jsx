@@ -23,7 +23,7 @@ export default function ShuffleHero() {
           />
         </div>
         <div className={css.info}>
-          <h3 className={css.subheading1}>Hello I&apos;m</h3>
+          <span className={css.subheading1}>Hello I&apos;m</span>
 
           <h1 className={css.heading}>SYED ARHAM RAZA</h1>
           <h3 className={css.subheading}>

@@ -1,11 +1,8 @@
 import "@/styles/globals.css";
-
 import { MantineProvider } from "@mantine/core";
 import Link from "next/link";
 import CookieConsent from "react-cookie-consent";
-
 import ScrollToTopButton from "@/components/ScrollToTopButton";
-
 import Sidebar from "../components/sidebar/Sidebar";
 import Script from "next/script";
 

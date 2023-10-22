@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import Links from "./links/Links";
 import css from "../../styles/Sidebar.module.css";
 import ToggleButton from "./toggleButton/ToggleButton";
-import Image from "next/image";
 
 const variants = {
   open: {

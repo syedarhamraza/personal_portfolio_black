@@ -29,7 +29,7 @@ export default function Skills() {
     <>
       <section id="skills" className={css.container}>
         <div className={css.skills}>
-          <h1 className={css.heading}>SKILLS</h1>
+          <h2 className={css.heading}>SKILLS</h2>
           <p className={css.desc}>WHAT I DO</p>
           <div className={css.tabs}>
             <Tabs

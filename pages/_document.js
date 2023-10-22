@@ -1,5 +1,4 @@
 import { Html, Head, Main, NextScript } from "next/document";
-import StructuredData from "../components/StructuredData";
 
 export default function Document() {
   return (

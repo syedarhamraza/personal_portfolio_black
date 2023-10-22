@@ -25,12 +25,16 @@
 .links {
   margin-top: 40px;
   margin-bottom: 40px;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
-  border: 2px solid white;
   padding: 20px;
   width: 800px;
-  text-decoration: underline;
+}
+
+.links ul li {
+  border: 2px solid white;
+  padding: 10px;
+  cursor: pointer;
 }
 
 .link ul li {
