@@ -43,6 +43,34 @@ export default function Home() {
   const structuredData = [
     {
       "@context": "http://schema.org",
+      "@type": "WebPage",
+      "@id": "https://www.arhammastery.dev/#home",
+      url: "https://www.arhammastery.dev/",
+      name: "Syed Arham Raza - Web Developer - ArhamMastery",
+      description:
+        "Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website.",
+      isPartOf: {
+        "@type": "WebSite",
+        "@id": "https://www.arhammastery.dev/#home",
+        name: "Syed Arham Raza",
+        url: "https://www.arhammastery.dev/",
+        sameAs: [
+          "https://www.facebook.com/arhammastery",
+          "https://github.com/arhammastery",
+          "https://www.youtube.com/c/arhammastery",
+          "https://www.instagram.com/arhammastery.dev",
+        ],
+        image: {
+          "@type": "ImageObject",
+          url: "https://www.arhammastery.dev/android-chrome-512x512.png/",
+          height: 400,
+          width: 400,
+        },
+      },
+    },
+
+    {
+      "@context": "http://schema.org",
       "@type": "WebSite",
       name: "Syed Arham Raza",
       url: "https://www.arhammastery.dev",
