@@ -31,11 +31,11 @@ const Sidebar = () => {
       <motion.div className={css.bg} variants={variants}>
         <Links
           links={[
-            { href: "#home", text: "Home" },
-            { href: "#about", text: "About" },
-            { href: "#projects", text: "Projects" },
-            { href: "#skills", text: "Skills" },
-            { href: "#contact", text: "Contact" },
+            { href: "/#home", text: "Home" },
+            { href: "/#about", text: "About" },
+            { href: "/#projects", text: "Projects" },
+            { href: "/#skills", text: "Skills" },
+            { href: "/#contact", text: "Contact" },
           ]}
           setOpen={setOpen}
         />

@@ -1,17 +1,13 @@
 import Link from "next/link";
 import css from "../styles/Header.module.css";
-import CloseIcon from "@mui/icons-material/Close";
 import { useDisclosure } from "@mantine/hooks";
-import RevealMenu from "./RevealMenu";
 import Image from "next/image";
 
 export default function Header() {
-  const [opened, { open, close }] = useDisclosure(false);
-
   return (
     <>
       <div className={css.container}>
-        <div className={css.button} onClick={open}></div>
+        <div className={css.button}></div>
         <div className={css.link}>
           <div className={css.background}>
             <Link href="/">
@@ -32,13 +28,15 @@ export default function Header() {
           </div>
         </div>
         <div className={css.logo}>
-          <Image
-            priority
-            src="/android-chrome-512x512.png"
-            alt="arham mastery logo"
-            width={70}
-            height={70}
-          />
+          <Link href="/">
+            <Image
+              priority
+              src="/android-chrome-512x512.png"
+              alt="arham mastery logo"
+              width={70}
+              height={70}
+            />
+          </Link>
         </div>
       </div>
     </>
