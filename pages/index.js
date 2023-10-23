@@ -155,6 +155,7 @@ export default function Home() {
           <meta property="og:type" content="website" />
           <meta property="og:title" content="Syed Arham Raza" key="title" />
           <meta property="og:url" content="https://www.arhammastery.dev" />
+          <meta property="og:site_name" content="Syed Arham Raza" />
           <meta
             property="og:description"
             content="Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website."
