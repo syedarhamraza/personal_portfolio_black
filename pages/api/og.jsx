@@ -40,26 +40,11 @@ export default function handler(request) {
           >
             <img
               alt="Vercel"
-              height={232}
+              height={512}
               src="https://arhammastery.dev/android-chrome-512x512.png"
               style={{ margin: "0 30px" }}
-              width={232}
+              width={512}
             />
-          </div>
-          <div
-            style={{
-              fontSize: 60,
-              fontWeight: 600,
-              fontStyle: "normal",
-              letterSpacing: "-0.025em",
-              color: "white",
-              marginTop: 30,
-              padding: "0 120px",
-              lineHeight: 1.4,
-              whiteSpace: "pre-wrap",
-            }}
-          >
-            {title}
           </div>
         </div>
       ),
