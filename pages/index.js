@@ -21,7 +21,7 @@ export default function Home() {
     {
       question: "What is the purpose of your portfolio?",
       answer:
-        "The purpose of my portfolio is to showcase my skills, experience, and the projects I've worked on as a web developer. It serves as a comprehensive representation of my abilities.",
+        "My portfolio is a reflection of my passion for web development.It's a platform where I showcase my skills, experience, and the projects I've worked on, serving as a comprehensive representation of my abilities in this exciting hobby.",
     },
     {
       question: "Can I see examples of your previous work?",
