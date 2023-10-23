@@ -75,8 +75,32 @@ export default function faq() {
           href="/favicon-16x16.png"
         />
         <link rel="icon" href="/favicon.ico" />
+
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Syed Arham Raza" key="title" />
+        <meta property="og:title" content="Faq - ArhamMastery" key="title" />
+        <meta property="og:url" content="https://www.arhammastery.dev/faq" />
+        <meta
+          property="og:description"
+          content="Frequently Asked Questions (FAQ) page featuring answers to common questions about Arham Mastery."
+        />
+        <meta
+          property="og:image"
+          content="https://www.arhammastery.dev/api/ogfaq"
+        />
+        <meta property="og:image:alt" content="A logo of Arham Mastery" />
+        <meta
+          property="twitter:image"
+          content="https://www.arhammastery.dev/api/ogfaq"
+        />
+        <meta
+          property="twitter:card"
+          content="https://www.arhammastery.dev/api/ogfaq"
+        />
+        <meta property="twitter:title" content="Faq - ArhamMastery" />
+        <meta
+          property="twitter:description"
+          content="Frequently Asked Questions (FAQ) page featuring answers to common questions about Arham Mastery."
+        />
         <meta
           name="description"
           content="Frequently Asked Questions (FAQ) page featuring answers to common questions about Arham Mastery."

@@ -14,6 +14,38 @@ export default function termsofuse() {
             content="minimum-scale=1, initial-scale=1, width=device-width"
           />
           <title>Terms - ArhamMastery</title>
+          <meta property="og:type" content="website" />
+          <meta
+            property="og:title"
+            content="Terms - ArhamMastery"
+            key="title"
+          />
+          <meta
+            property="og:url"
+            content="https://www.arhammastery.dev/termsofuse"
+          />
+          <meta
+            property="og:description"
+            content="Our Terms of Use to understand the guidelines and rules for using our website. Learn about user responsibilities, content policies, and more."
+          />
+          <meta
+            property="og:image"
+            content="https://www.arhammastery.dev/api/ogterms"
+          />
+          <meta property="og:image:alt" content="A logo of Arham Mastery" />
+          <meta
+            property="twitter:image"
+            content="https://www.arhammastery.dev/api/ogterms"
+          />
+          <meta
+            property="twitter:card"
+            content="https://www.arhammastery.dev/api/ogterms"
+          />
+          <meta property="twitter:title" content="Terms - ArhamMastery" />
+          <meta
+            property="twitter:description"
+            content="Our Terms of Use to understand the guidelines and rules for using our website. Learn about user responsibilities, content policies, and more."
+          />
           <meta
             name="description"
             content="Our Terms of Use to understand the guidelines and rules for using our website. Learn about user responsibilities, content policies, and more."

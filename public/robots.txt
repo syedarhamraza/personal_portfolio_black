@@ -1,3 +1,4 @@
 User-agent: *
+Allow: /api/og/*
 Disallow:
 Sitemap: https://www.arhammastery/sitemap.xml

@@ -154,6 +154,32 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
           <meta property="og:type" content="website" />
           <meta property="og:title" content="Syed Arham Raza" key="title" />
+          <meta property="og:url" content="https://www.arhammastery.dev" />
+          <meta
+            property="og:description"
+            content="Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website."
+          />
+          <meta
+            property="og:image"
+            content="https://www.arhammastery.dev/apple-touch-icon.png"
+          />
+          <meta property="og:image:alt" content="A logo of Arham Mastery" />
+          <meta
+            property="twitter:image"
+            content="https://www.arhammastery.dev/api/og"
+          />
+          <meta
+            property="twitter:card"
+            content="https://www.arhammastery.dev/api/og"
+          />
+          <meta
+            property="twitter:title"
+            content="Syed Arham Raza - Web Developer"
+          />
+          <meta
+            property="twitter:description"
+            content="Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website."
+          />
           <meta
             name="description"
             content="Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website."

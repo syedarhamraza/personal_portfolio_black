@@ -14,6 +14,38 @@ export default function privacypolicy() {
             content="minimum-scale=1, initial-scale=1, width=device-width"
           />
           <title>Privacy - ArhamMastery</title>
+          <meta property="og:type" content="website" />
+          <meta
+            property="og:title"
+            content="Privacy - ArhamMastery"
+            key="title"
+          />
+          <meta
+            property="og:url"
+            content="https://www.arhammastery.dev/privacypolicy"
+          />
+          <meta
+            property="og:description"
+            content="Our Privacy Policy to understand how we collect, use, and protect your data. Learn about your rights and our commitment to your privacy."
+          />
+          <meta
+            property="og:image"
+            content="https://www.arhammastery.dev/api/ogprivacy"
+          />
+          <meta property="og:image:alt" content="A logo of Arham Mastery" />
+          <meta
+            property="twitter:image"
+            content="https://www.arhammastery.dev/api/ogprivacy"
+          />
+          <meta
+            property="twitter:card"
+            content="https://www.arhammastery.dev/api/ogprivacy"
+          />
+          <meta property="twitter:title" content="Privacy - ArhamMastery" />
+          <meta
+            property="twitter:description"
+            content="Our Privacy Policy to understand how we collect, use, and protect your data. Learn about your rights and our commitment to your privacy."
+          />
           <meta
             name="description"
             content="Our Privacy Policy to understand how we collect, use, and protect your data. Learn about your rights and our commitment to your privacy."
