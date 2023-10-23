@@ -159,10 +159,7 @@ export default function Home() {
             property="og:description"
             content="Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website."
           />
-          <meta
-            property="og:image"
-            content="https://www.arhammastery.dev/apple-touch-icon.png"
-          />
+          <meta property="og:image" content="https://www.arhammastery.dev/og" />
           <meta property="og:image:alt" content="A logo of Arham Mastery" />
           <meta
             property="twitter:image"
