@@ -173,7 +173,6 @@ export default function Home() {
             name="description"
             content="Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website."
           />
-          <link rel="canonical" href="https://www.arhammastery.dev" />
           <link rel="manifest" href="/site.webmanifest" />
           <meta itemProp="name" content="Syed Arham Raza" />
           <meta name="author" content="Arhamraza" />
