@@ -20,10 +20,7 @@ export default function termsofuse() {
             content="Terms - ArhamMastery"
             key="title"
           />
-          <meta
-            property="og:url"
-            content="https://www.arhammastery.dev/termsofuse"
-          />
+          <meta property="og:url" content="https://www.arhammastery.dev/" />
           <meta
             property="og:description"
             content="Our Terms of Use to understand the guidelines and rules for using our website. Learn about user responsibilities, content policies, and more."

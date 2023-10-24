@@ -20,10 +20,7 @@ export default function privacypolicy() {
             content="Privacy - ArhamMastery"
             key="title"
           />
-          <meta
-            property="og:url"
-            content="https://www.arhammastery.dev/privacypolicy"
-          />
+          <meta property="og:url" content="https://www.arhammastery.dev/" />
           <meta
             property="og:description"
             content="Our Privacy Policy to understand how we collect, use, and protect your data. Learn about your rights and our commitment to your privacy."

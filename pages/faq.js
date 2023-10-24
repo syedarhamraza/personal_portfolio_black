@@ -78,7 +78,7 @@ export default function faq() {
 
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Faq - ArhamMastery" key="title" />
-        <meta property="og:url" content="https://www.arhammastery.dev/faq" />
+        <meta property="og:url" content="https://www.arhammastery.dev/" />
         <meta
           property="og:description"
           content="Frequently Asked Questions (FAQ) page featuring answers to common questions about Arham Mastery."
