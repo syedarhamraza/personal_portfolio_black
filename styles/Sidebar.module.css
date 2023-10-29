@@ -13,7 +13,7 @@
   top: 0;
   left: 0;
   bottom: 0;
-  width: 100%;
+  width: 400px;
   background: white;
 }
 
@@ -44,4 +44,10 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .bg {
+    max-width: 280px;
+  }
 }

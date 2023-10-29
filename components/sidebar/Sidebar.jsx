@@ -6,7 +6,7 @@ import ToggleButton from "./toggleButton/ToggleButton";
 
 const variants = {
   open: {
-    clipPath: "circle(2500px at 50px 50px)",
+    clipPath: "circle(1200px at 50px 50px)",
     transition: {
       type: "spring",
       stiffness: 20,
