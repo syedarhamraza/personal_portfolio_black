@@ -75,10 +75,7 @@ export default function faq() {
           href="/favicon-16x16.png"
         />
         <link rel="icon" href="/favicon.ico" />
-
-        <meta property="og:type" content="website" />
         <meta property="og:title" content="Faq - ArhamMastery" key="title" />
-        <meta property="og:url" content="https://www.arhammastery.dev/" />
         <meta
           property="og:description"
           content="Frequently Asked Questions (FAQ) page featuring answers to common questions about Arham Mastery."

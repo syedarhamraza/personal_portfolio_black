@@ -9,7 +9,6 @@ import Contact from "@/components/Contact";
 import StructuredData from "../components/StructuredData";
 import Faq from "../components/Faq";
 import Links from "../components/Links";
-import Sidebar from "../components/sidebar/Sidebar";
 
 export default function Home() {
   const faqData = [
