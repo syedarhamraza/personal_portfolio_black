@@ -11,34 +11,6 @@ import Faq from "../components/Faq";
 import Links from "../components/Links";
 
 export default function Home() {
-  const faqData = [
-    {
-      question: "Who is Arham Mastery?",
-      answer:
-        "Arham Mastery, as described, is a one-year-experienced web developer with proficiency in HTML, CSS, JavaScript, and React. They also have a solid understanding of C++. Arham is passionate about creating user-friendly web interfaces and staying updated with the latest trends in web development. They are ready to tackle diverse development challenges, reflecting a strong commitment to continuous learning and problem-solving in the field of web development.",
-    },
-    {
-      question: "What is the purpose of your portfolio?",
-      answer:
-        "My portfolio is a reflection of my passion for web development.It's a platform where I showcase my skills, experience, and the projects I've worked on, serving as a comprehensive representation of my abilities in this exciting hobby.",
-    },
-    {
-      question: "Can I see examples of your previous work?",
-      answer:
-        "Certainly, you can view a collection of my previous work on my portfolio website. It showcases a range of web development projects, including descriptions and links to live websites and case studies for a more in-depth understanding of my work.",
-    },
-    {
-      question: "How can I get in touch with you?",
-      answer:
-        "You can reach out to me through the contact information provided on my website. Feel free to use the email address or contact form to get in touch, and I'll respond as soon as possible.",
-    },
-    {
-      question:
-        "What security measures do you have in place to protect websites?",
-      answer:
-        "I prioritize website security by using Vercel for deployments and Let's Encrypt SSL certificates to encrypt data in transit. Security measures are tailored to each project based on specific user requirements and potential threats.",
-    },
-  ];
   const structuredData = [
     {
       "@context": "http://schema.org",
@@ -105,20 +77,6 @@ export default function Home() {
         "Syed Arham Web Developer",
         "Syed Arham",
       ],
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      mainEntity: faqData.map((item) => ({
-        "@type": "Question",
-        name: item.question,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: item.answer,
-        },
-      })),
-      datePublished: "2023-10-20",
-      dateModified: "2023-10-20",
     },
   ];
 
