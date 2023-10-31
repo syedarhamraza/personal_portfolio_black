@@ -11,24 +11,24 @@ export default function Links() {
           <div className={classes.links}>
             <ul>
               <li>
-                <Link href="#home">Get started</Link>
+                <Link href="#home">GET STARTED</Link>
               </li>
               <li>
-                <Link href="#about">About myself</Link>
+                <Link href="#about">ABOUT MYSELF</Link>
               </li>
               <li>
-                <Link href="#skills">Some of my skills</Link>
+                <Link href="#skills">SOME OF MY SKILLS</Link>
               </li>
               <li>
-                <Link href="#projects">Projects I worked on</Link>
+                <Link href="#projects">PROJECTS I WORKED ON</Link>
               </li>
               <li>
                 <Link href="#frequently-asked-questions">
-                  Frequently asked quetions
+                  FREQUENTLY ASKED QUESTION
                 </Link>
               </li>
               <li>
-                <Link href="#contact">Get in touch</Link>
+                <Link href="#contact">GET IN TOUCH</Link>
               </li>
             </ul>
           </div>
