@@ -67,8 +67,8 @@ export default function Home() {
         "Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website.",
       email: "contact@arhammastery.dev",
       sameAs: [
-        "https://github.com/arhamraza112",
-        "https://www.instagram.com/_syedarham_raza_/",
+        "https://github.com/arhamrazamastery",
+        "https://www.instagram.com/arhammastery.dev/",
         "https://www.linkedin.com/in/arham-raza-b27327269/",
         "https://www.linkedin.com/in/syed-arham-raza-atlas/",
       ],
@@ -132,7 +132,6 @@ export default function Home() {
             content="Experience the expertise of a skilled web developer. Discover responsive design, full-stack development, and digital artistry at this Website."
           />
           <link rel="manifest" href="/site.webmanifest" />
-          <meta itemProp="name" content="Syed Arham Raza" />
           <meta name="author" content="Arhamraza" />
           <meta name="owner" content="SyedArhamRaza" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />

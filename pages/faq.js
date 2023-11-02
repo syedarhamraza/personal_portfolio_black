@@ -104,7 +104,6 @@ export default function faq() {
           content="Frequently Asked Questions (FAQ) page featuring answers to common questions about Arham Mastery."
         />
         <link rel="manifest" href="/site.webmanifest" />
-        <meta itemProp="name" content="Syed Arham Raza" />
         <meta name="author" content="Arhamraza" />
         <meta name="owner" content="SyedArhamRaza" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
