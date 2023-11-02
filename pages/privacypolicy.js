@@ -3,6 +3,7 @@ import Layout from "@/components/Layout";
 import Reveal from "@/components/Reveal";
 import css from "@/styles/termsofuse.module.css";
 import Link from "next/link";
+import Sidebar from "../components/sidebar/Sidebar";
 
 export default function privacypolicy() {
   return (
@@ -70,6 +71,7 @@ export default function privacypolicy() {
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>
+        <Sidebar />
         <Reveal>
           <div className={css.container}>
             <div className={css.terms}>

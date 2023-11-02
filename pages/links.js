@@ -2,6 +2,7 @@ import css from "../styles/Link.module.css";
 import Layout from "@/components/Layout";
 import Link from "next/link";
 import Head from "next/head";
+import Sidebar from "../components/sidebar/Sidebar";
 
 export default function faq() {
   return (
@@ -31,6 +32,7 @@ export default function faq() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="index, follow" />
       </Head>
+      <Sidebar />
       <Layout>
         <section id="links" className={css.container}>
           <div className={css.projects}>

@@ -4,6 +4,7 @@ import Layout from "@/components/Layout";
 import Link from "next/link";
 import Head from "next/head";
 import StructuredData from "../components/StructuredData";
+import Sidebar from "../components/sidebar/Sidebar";
 
 export default function faq() {
   const faqData = [
@@ -109,6 +110,7 @@ export default function faq() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="index, follow" />
       </Head>
+      <Sidebar />
       <StructuredData data={structuredData} />
       <Layout>
         <Container size="sm" className={classes.wrapper}>
