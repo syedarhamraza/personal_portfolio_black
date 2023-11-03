@@ -47,8 +47,6 @@ export default function faq() {
         text: item.answer,
       },
     })),
-    datePublished: "2023-10-20",
-    dateModified: "2023-10-20",
   };
   return (
     <>
@@ -57,7 +55,7 @@ export default function faq() {
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
-        <title>Faqs - ArhamMastery</title>
+        <title>Frequently asked question</title>
         <link
           rel="apple-touch-icon"
           sizes="180x180"

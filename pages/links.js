@@ -12,7 +12,7 @@ export default function faq() {
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
-        <title>Links - ArhamMastery</title>
+        <title>Usefull Links</title>
         <link
           rel="apple-touch-icon"
           sizes="180x180"
