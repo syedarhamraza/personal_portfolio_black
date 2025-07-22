@@ -11,27 +11,6 @@ import toast, { Toaster } from "react-hot-toast";
 export default function Contact() {
   const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_rifldnl",
-        "template_fcp8kon",
-        form.current,
-        "9xoFWl2VBdOClgDBq"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          form.current.reset();
-          toast.success("Email sent!");
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
   return (
     <>
       <section id="contact" className={css.container}>
@@ -82,7 +61,7 @@ export default function Contact() {
             </div>
             <div className={css.right}>
               <div className={css.form}>
-                <form ref={form} onSubmit={sendEmail}>
+                <form ref={form}>
                   <Title
                     order={2}
                     size="h1"
